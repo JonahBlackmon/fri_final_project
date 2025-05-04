@@ -1,0 +1,1 @@
+/home/bwilab/fri_ws/build/v5_description/ament_cmake_core/v5_descriptionConfig-version.cmake

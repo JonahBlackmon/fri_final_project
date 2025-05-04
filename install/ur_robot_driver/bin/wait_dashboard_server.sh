@@ -1,0 +1,1 @@
+/home/bwilab/fri_ws/src/v5_arm/ur_robot_driver/scripts/wait_dashboard_server.sh

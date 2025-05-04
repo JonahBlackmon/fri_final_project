@@ -1,0 +1,1 @@
+/home/bwilab/fri_ws/src/v5_arm/ur_robot_driver/scripts/start_ursim.sh

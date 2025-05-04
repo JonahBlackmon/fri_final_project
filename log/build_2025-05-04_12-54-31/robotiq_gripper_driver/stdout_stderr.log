@@ -1,0 +1,4 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/bwilab/fri_ws/install/robotiq_gripper_driver/lib/python3.10/site-packages/robotiq-gripper-driver.egg-link (link to .)

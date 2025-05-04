@@ -1,0 +1,1 @@
+/home/bwilab/fri_ws/build/v5_moveit_config/ament_cmake_core/v5_moveit_configConfig-version.cmake

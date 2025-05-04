@@ -1,0 +1,21 @@
+[1.208s] Invoking command in '/home/bwilab/fri_ws/src/ur5_wave': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/src/build/ur5_wave/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/src/install/ur5_wave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ur5_wave build --build-base /home/bwilab/fri_ws/src/build/ur5_wave/build install --record /home/bwilab/fri_ws/src/build/ur5_wave/install.log --single-version-externally-managed install_data
+[1.547s] running egg_info
+[1.549s] writing ../build/ur5_wave/ur5_wave.egg-info/PKG-INFO
+[1.550s] writing dependency_links to ../build/ur5_wave/ur5_wave.egg-info/dependency_links.txt
+[1.550s] writing entry points to ../build/ur5_wave/ur5_wave.egg-info/entry_points.txt
+[1.550s] writing requirements to ../build/ur5_wave/ur5_wave.egg-info/requires.txt
+[1.550s] writing top-level names to ../build/ur5_wave/ur5_wave.egg-info/top_level.txt
+[1.553s] reading manifest file '../build/ur5_wave/ur5_wave.egg-info/SOURCES.txt'
+[1.554s] writing manifest file '../build/ur5_wave/ur5_wave.egg-info/SOURCES.txt'
+[1.554s] running build
+[1.554s] running build_py
+[1.555s] running install
+[1.555s] running install_lib
+[1.556s] running install_data
+[1.557s] running install_egg_info
+[1.563s] removing '/home/bwilab/fri_ws/src/install/ur5_wave/lib/python3.10/site-packages/ur5_wave-0.0.0-py3.10.egg-info' (and everything under it)
+[1.563s] Copying ../build/ur5_wave/ur5_wave.egg-info to /home/bwilab/fri_ws/src/install/ur5_wave/lib/python3.10/site-packages/ur5_wave-0.0.0-py3.10.egg-info
+[1.564s] running install_scripts
+[1.596s] Installing wave_node script to /home/bwilab/fri_ws/src/install/ur5_wave/lib/ur5_wave
+[1.597s] writing list of installed files to '/home/bwilab/fri_ws/src/build/ur5_wave/install.log'
+[1.661s] Invoked command in '/home/bwilab/fri_ws/src/ur5_wave' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/src/build/ur5_wave/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/src/install/ur5_wave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ur5_wave build --build-base /home/bwilab/fri_ws/src/build/ur5_wave/build install --record /home/bwilab/fri_ws/src/build/ur5_wave/install.log --single-version-externally-managed install_data

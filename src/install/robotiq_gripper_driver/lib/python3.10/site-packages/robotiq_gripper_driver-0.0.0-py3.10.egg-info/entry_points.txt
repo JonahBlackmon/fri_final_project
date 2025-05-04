@@ -1,0 +1,3 @@
+[console_scripts]
+gripper_driver = robotiq_gripper_driver.gripper_ros_controller:main
+

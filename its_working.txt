@@ -1,0 +1,1000 @@
+ 1015  make
+ 1016  ./applications/singleKinectTest/singleKinectTest 
+ 1017  make
+ 1018  ./applications/singleKinectTest/singleKinectTest 
+ 1019  make
+ 1020  ./applications/singleKinectTest/singleKinectTest 
+ 1021  make
+ 1022  ./applications/singleKinectTest/singleKinectTest 
+ 1023  make
+ 1024  ./applications/singleKinectTest/singleKinectTest 
+ 1025  make
+ 1026  ./applications/singleKinectTest/singleKinectTest 
+ 1027  make
+ 1028  ./applications/singleKinectTest/singleKinectTest 
+ 1029  make
+ 1030  ./applications/singleKinectTest/singleKinectTest 
+ 1031  mke
+ 1032  make
+ 1033  mke
+ 1034  ./applications/singleKinectTest/singleKinectTest 
+ 1035  sudo apt-get install libvisp-dev
+ 1036  ldconfig -p | grep visp
+ 1037  pkg-config --print-requires --print-requires-private _ZN18vpDetectorAprilTagD1Ev
+ 1038  pkg-config --print-requires --print-requires-private visp_detection
+ 1039  pkg-config --print-requires --print-requires-private visp_detection.3.5
+ 1040  sudo apt-get install libvisp-dev
+ 1041  env | grep VISP_WS
+ 1042  scanelf -l -s _ZN18vpDetectorAprilTagD1Ev | grep _ZN18vpDetectorAprilTagD1Ev
+ 1043  sudo apt install pax-utils
+ 1044  scanelf -l -s _ZN18vpDetectorAprilTagD1Ev | grep _ZN18vpDetectorAprilTagD1Ev
+ 1045  make
+ 1046  ./applications/singleKinectTest/singleKinectTest 
+ 1047  clear
+ 1048  ./applications/singleKinectTest/singleKinectTest 
+ 1049  clear
+ 1050  ./applications/singleKinectTest/singleKinectTest 
+ 1051  make
+ 1052  cmake .
+ 1053  mak
+ 1054  make
+ 1055  cmake .
+ 1056  make
+ 1057  cmake .
+ 1058  make
+ 1059  make clean
+ 1060  cmake .
+ 1061  make
+ 1062  cmake .
+ 1063  make clean
+ 1064  make
+ 1065  cmake .
+ 1066  make
+ 1067  cmake .
+ 1068  make
+ 1069  cmake .
+ 1070  make
+ 1071  cmake .
+ 1072  make
+ 1073  cmake .
+ 1074  make
+ 1075  cmake .
+ 1076  make
+ 1077  MAKE
+ 1078  make
+ 1079  cmake .
+ 1080  mae
+ 1081  make
+ 1082  cmake .
+ 1083  make
+ 1084  cd bwi-docker/
+ 1085  bwi-start
+ 1086  clear
+ 1087  ./applications/singleKinectTest/singleKinectTest 
+ 1088  make
+ 1089  ./applications/singleKinectTest/singleKinectTest 
+ 1090  make
+ 1091  ./applications/singleKinectTest/singleKinectTest 
+ 1092  make
+ 1093  ./applications/singleKinectTest/singleKinectTest 
+ 1094  make
+ 1095  ./applications/singleKinectTest/singleKinectTest 
+ 1096  make
+ 1097  ./applications/singleKinectTest/singleKinectTest 
+ 1098  make
+ 1099  ./applications/singleKinectTest/singleKinectTest 
+ 1100  make
+ 1101  ./applications/singleKinectTest/singleKinectTest 
+ 1102  make
+ 1103  ./applications/singleKinectTest/singleKinectTest 
+ 1104  make
+ 1105  ./applications/singleKinectTest/singleKinectTest 
+ 1106  make
+ 1107  ./applications/singleKinectTest/singleKinectTest 
+ 1108  make
+ 1109  ./applications/singleKinectTest/singleKinectTest 
+ 1110  make
+ 1111  ./applications/singleKinectTest/singleKinectTest 
+ 1112  make
+ 1113  ./applications/singleKinectTest/singleKinectTest 
+ 1114  make
+ 1115  ./applications/singleKinectTest/singleKinectTest 
+ 1116  make
+ 1117  ./applications/singleKinectTest/singleKinectTest 
+ 1118  make
+ 1119  ./applications/singleKinectTest/singleKinectTest 
+ 1120  make
+ 1121  ./applications/singleKinectTest/singleKinectTest 
+ 1122  make
+ 1123  ./applications/singleKinectTest/singleKinectTest 
+ 1124  make
+ 1125  ./applications/singleKinectTest/singleKinectTest 
+ 1126  make
+ 1127  ./applications/singleKinectTest/singleKinectTest 
+ 1128  make
+ 1129  ./applications/singleKinectTest/singleKinectTest 
+ 1130  make
+ 1131  ./applications/singleKinectTest/singleKinectTest 
+ 1132  make
+ 1133  ./applications/singleKinectTest/singleKinectTest 
+ 1134  make
+ 1135  ./applications/singleKinectTest/singleKinectTest 
+ 1136  make
+ 1137  ./applications/singleKinectTest/singleKinectTest 
+ 1138  make
+ 1139  ./applications/singleKinectTest/singleKinectTest 
+ 1140  make
+ 1141  ./applications/singleKinectTest/singleKinectTest 
+ 1142  make
+ 1143  ./applications/singleKinectTest/singleKinectTest 
+ 1144  make
+ 1145  ./applications/singleKinectTest/singleKinectTest 
+ 1146  make
+ 1147  ./applications/singleKinectTest/singleKinectTest 
+ 1148  make
+ 1149  ./applications/singleKinectTest/singleKinectTest 
+ 1150  make
+ 1151  ./applications/singleKinectTest/singleKinectTest 
+ 1152  make
+ 1153  ./applications/singleKinectTest/singleKinectTest 
+ 1154  make
+ 1155  ./applications/singleKinectTest/singleKinectTest 
+ 1156  ./applications/singleKinectTest/singleKinectTest \
+ 1157  ./applications/singleKinectTest/singleKinectTest
+ 1158  make
+ 1159  ./applications/singleKinectTest/singleKinectTest
+ 1160  make
+ 1161  ./applications/singleKinectTest/singleKinectTest
+ 1162  make
+ 1163  ./applications/singleKinectTest/singleKinectTest
+ 1164  make
+ 1165  ./applications/singleKinectTest/singleKinectTest
+ 1166  make
+ 1167  ./applications/singleKinectTest/singleKinectTest
+ 1168  make
+ 1169  ./applications/singleKinectTest/singleKinectTest
+ 1170  make
+ 1171  ./applications/singleKinectTest/singleKinectTest
+ 1172  make
+ 1173  ./applications/singleKinectTest/singleKinectTest
+ 1174  make
+ 1175  ./applications/singleKinectTest/singleKinectTest
+ 1176  make
+ 1177  ./applications/singleKinectTest/singleKinectTest
+ 1178  make
+ 1179  ./applications/singleKinectTest/singleKinectTest
+ 1180  make
+ 1181  ./applications/singleKinectTest/singleKinectTest
+ 1182  ls
+ 1183  cd hallway23-bwi-docker
+ 1184  ls
+ 1185  exit
+ 1186  ls
+ 1187  cd ros2_ws/
+ 1188  ls
+ 1189  cd src/
+ 1190  ls
+ 1191  cd teleop_wrapper/
+ 1192  ls
+ 1193  cd src/
+ 1194  ls
+ 1195  cd ~
+ 1196  mkdir ros2_hokuyo
+ 1197  cd ros2_hokuyo/
+ 1198  ls
+ 1199  mkdir src
+ 1200  cd src/
+ 1201  git clone --recursive https://github.com/Hokuyo-aut/urg_node2.git
+ 1202  rosdep update
+ 1203  rosdep install -i --from-paths urg_node2
+ 1204  source /opt/ros/humble/setup.bash 
+ 1205  rosdep install -i --from-paths urg_node2
+ 1206  history
+ 1207  history > history.txt
+ 1208  ls
+ 1209  make
+ 1210  ./applications/singleKinectTest/singleKinectTest
+ 1211  make
+ 1212  ./applications/singleKinectTest/singleKinectTest
+ 1213  ls
+ 1214  make
+ 1215  ./applications/singleKinectTest/singleKinectTest
+ 1216  make
+ 1217  ./applications/singleKinectTest/singleKinectTest
+ 1218  make
+ 1219  ./applications/singleKinectTest/singleKinectTest
+ 1220  make
+ 1221  ./applications/singleKinectTest/singleKinectTest
+ 1222  make
+ 1223  ./applications/singleKinectTest/singleKinectTest
+ 1224  make
+ 1225  ./applications/singleKinectTest/singleKinectTest
+ 1226  make
+ 1227  ./applications/singleKinectTest/singleKinectTest
+ 1228  make
+ 1229  ./applications/singleKinectTest/singleKinectTest
+ 1230  make
+ 1231  ./applications/singleKinectTest/singleKinectTest
+ 1232  make
+ 1233  ./applications/singleKinectTest/singleKinectTest
+ 1234  make
+ 1235  ./applications/singleKinectTest/singleKinectTest
+ 1236  make
+ 1237  ./applications/singleKinectTest/singleKinectTest
+ 1238  make
+ 1239  ./applications/singleKinectTest/singleKinectTest
+ 1240  make
+ 1241  ./applications/singleKinectTest/singleKinectTest
+ 1242  make
+ 1243  ./applications/singleKinectTest/singleKinectTest
+ 1244  make
+ 1245  ./applications/singleKinectTest/singleKinectTest
+ 1246  make
+ 1247  ./applications/singleKinectTest/singleKinectTest
+ 1248  make
+ 1249  ./applications/singleKinectTest/singleKinectTest
+ 1250  make
+ 1251  ./applications/singleKinectTest/singleKinectTest
+ 1252  make
+ 1253  ./applications/singleKinectTest/singleKinectTest
+ 1254  make
+ 1255  ./applications/singleKinectTest/singleKinectTest
+ 1256  make
+ 1257  ./applications/singleKinectTest/singleKinectTest
+ 1258  ip a
+ 1259  ping 10.0.0.1
+ 1260  ping 10.0.0.141
+ 1261  ping 10.0.0.131
+ 1262  ping 10.0.0.140
+ 1263  clear
+ 1264  ls
+ 1265  clear
+ 1266  ping 10.0.0.140
+ 1267  clear
+ 1268  ssh bwilab@10.0.0.140
+ 1269  make
+ 1270  ./applications/singleKinectTest/singleKinectTest 
+ 1271  make
+ 1272  ./applications/singleKinectTest/singleKinectTest 
+ 1273  make
+ 1274  ./applications/singleKinectTest/singleKinectTest 
+ 1275  ./applications/singleKinectTest/singleKinectTest make
+ 1276  make
+ 1277  ./applications/singleKinectTest/singleKinectTest make
+ 1278  make
+ 1279  ./applications/singleKinectTest/singleKinectTest make
+ 1280  git stage .
+ 1281  make clean
+ 1282  git stage .
+ 1283  make
+ 1284  ./applications/singleKinectTest/singleKinectTest 
+ 1285  make cleaan
+ 1286  make clean
+ 1287  git config user.email "kaushikskn@gmail.com"
+ 1288  git config user.name "SankarshN"
+ 1289  git push origin main
+ 1290  git config --global user.name "mansimadhani"
+ 1291  git config --global user.email "madhanimansi56@gmail.com"
+ 1292  ls
+ 1293  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1294  huggingface-cli login
+ 1295  git add .
+ 1296  git commit -m "llm attempt 2"
+ 1297  git push
+ 1298  huggingface-cli login
+ 1299  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1300  [200~huggingface-cli download meta-llama/Llama-3.2-1B --include "original/*" --local-dir Llama-3.2-1B
+ 1301  ~huggingface-cli download meta-llama/Llama-3.2-1B --include "original/*" --local-dir Llama-3.2-1B
+ 1302  huggingface-cli download meta-llama/Llama-3.2-1B --include "original/*" --local-dir Llama-3.2-1B
+ 1303  pip install --upgrade transformers
+ 1304  huggingface-cli download meta-llama/Llama-3.2-1B --include "original/*" --local-dir Llama-3.2-1B
+ 1305  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1306  pip install accelerate
+ 1307  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1308  pip install accelerate
+ 1309  pip show accelerate
+ 1310  pip install --upgrade accelerate
+ 1311  which python
+ 1312  git pull
+ 1313  huggingface-cli login
+ 1314  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1315  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/extract_Text.py
+ 1316  [200~pip install python-pptx
+ 1317  pip install python-pptx
+ 1318  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1319  cd verbal
+ 1320  cd Verbal
+ 1321  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1322  pip install python-pptx
+ 1323  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1324  [200~pip install python-pptx
+ 1325  pip install python-pptx
+ 1326  [200~python -m pip install --upgrade pip
+ 1327  python -m pip install --upgrade pip
+ 1328  pip install python-pptx
+ 1329  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/extract_Text.py
+ 1330  source path_to_your_venv/bin/activate
+ 1331  pip install python-pptx
+ 1332  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1333  pip install llamaapi
+ 1334  pip install huggingface_hub
+ 1335  pip install --upgrade transformers
+ 1336  git config --global credential.helper store
+ 1337  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1338  [200~huggingface-cli login
+ 1339  huggingface-cli login
+ 1340  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1341  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/extract_Text.py
+ 1342  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/tts_pipeline.py
+ 1343  git pull
+ 1344  python3.12 -m pip install transformers
+ 1345  [200~python3.12 -m pip install torch
+ 1346  python3.12 -m pip install torch
+ 1347  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1348  pip install python-pptx
+ 1349  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1350  git config --global credential.helper store
+ 1351  huggingface-cli login
+ 1352  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1353  pip install python-pptx
+ 1354  python3.12 -m pip install python-pptx
+ 1355  /bin/python3 /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1356  python -m venv /path/to/new/virtual/environment
+ 1357  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1358  pip install datasets
+ 1359  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1360  git config --global credential.helper store
+ 1361  huggingface-cli login
+ 1362  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1363  pip install transformers
+ 1364  pip install torch
+ 1365  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1366  pip install soundfile
+ 1367  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1368  pip install pydub
+ 1369  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1370  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/extract_Text.py
+ 1371  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1372  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/extract_Text.py
+ 1373  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1374  cd Physical
+ 1375  git clone https://github.com/Living-With-Robots-Lab/v5_workspace.git
+ 1376  cd ..
+ 1377  cd Verbal/
+ 1378  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1379  pip install openai
+ 1380  pip install transformers torch datasets
+ 1381  pip install soundfile pydub
+ 1382  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1383  pip install --upgrade openai
+ 1384  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1385  pip install openai==0.28~
+ 1386  pip install openai==0.28
+ 1387  /home/bwilab/presentation_bot/PresentationRobot/.venv/bin/python /home/bwilab/presentation_bot/PresentationRobot/Verbal/llm.py
+ 1388  git add llm.py
+ 1389  git commit -m "switched GPT"
+ 1390  git push main origin
+ 1391  git push
+ 1392  /bin/python3.10 /home/bwilab/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/bwilab/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1393  ls
+ 1394  clear
+ 1395  ros2 topic list
+ 1396  lear
+ 1397  clear
+ 1398  ls
+ 1399  ls /opt/
+ 1400  ls /opt/ros/
+ 1401  ls /opt/ros/humble/
+ 1402  source /opt/ros/humble/setup.bash 
+ 1403  clear
+ 1404  ros2 topic list
+ 1405  ls
+ 1406  cd ros2_ws/
+ 1407  ls
+ 1408  cd src/
+ 1409  ls
+ 1410  cd examples/
+ 1411  ls
+ 1412  cd 
+ 1413  clear
+ 1414  ls
+ 1415  lsb_release -a
+ 1416  clear
+ 1417  ls
+ 1418  cd ros2_ws/
+ 1419  ls
+ 1420  cd src/
+ 1421  ls
+ 1422  cd examples/
+ 1423  ls
+ 1424  cd  rclcpp/
+ 1425  ls
+ 1426  cd 
+ 1427  ls
+ 1428  cd ros2_ws/
+ 1429  ls
+ 1430  cd src/
+ 1431  ls
+ 1432  cd ..
+ 1433  cd src/
+ 1434  ls
+ 1435  git clone https://github.com/ros-drivers/velodyne.git
+ 1436  cd velodyne/
+ 1437  ls
+ 1438  git status
+ 1439  git checkout humble-devel
+ 1440  clear
+ 1441  git log
+ 1442  clear
+ 1443  cd ..
+ 1444  colcon build velodyne
+ 1445  colcon build --packages-select velodyne
+ 1446  colcon build --packages-select velodyne velodyne_driver velodyne_laserscan velodyne_msgs velodyne_pointcloud
+ 1447  clear
+ 1448  ls
+ 1449  ls install/
+ 1450  . install/setup.bash 
+ 1451  clear
+ 1452  ls
+ 1453  cd src/
+ 1454  ls
+ 1455  mv velodyne/ ../..
+ 1456  ls
+ 1457  cd ..
+ 1458  ls
+ 1459  mkdir velodyne_ros2_ws
+ 1460  mkdir -p velodyne_ros2_ws/src
+ 1461  mv velodyne velodyne_ros2_ws/src/
+ 1462  cd velodyne_ros2_ws/src/
+ 1463  clear
+ 1464  ls
+ 1465  cd ..
+ 1466  clear
+ 1467  colcon build
+ 1468  clear
+ 1469  . install/setup.bash
+ 1470  ls
+ 1471  cd install/
+ 1472  ls
+ 1473  vim setup.bash 
+ 1474  clear
+ 1475  cd ..
+ 1476  ls
+ 1477  source install/setup.bash 
+ 1478  source install/local_setup.bash 
+ 1479  clear
+ 1480  ros2 launch velodyne velodyne-all-nodes-VLP16-launch.py 
+ 1481  clear
+ 1482  ros2 launch velodyne velodyne-all-nodes-VLP16-launch.py 
+ 1483  clear
+ 1484  ros2 run tf2_tools view_frames 
+ 1485  clear
+ 1486  ls
+ 1487  cd ..
+ 1488  ls
+ 1489  cd ros2_hokuyo/
+ 1490  ls
+ 1491  cd src/
+ 1492  ls
+ 1493  cd urg_node2/
+ 1494  ls
+ 1495  cd launch/
+ 1496  ls
+ 1497  code .
+ 1498  source /opt/ros/humble/setup.bash 
+ 1499  clear
+ 1500  ros2 topic list
+ 1501  ros2 topic echo /velodyne_points
+ 1502  clear
+ 1503  ros2 topic list
+ 1504  ros2 topic info /scan
+ 1505  ros2 node list
+ 1506  clear
+ 1507  ros2 node list
+ 1508  ros2 topic lst
+ 1509  ros2 topic list
+ 1510  clear
+ 1511  ros2 topic list
+ 1512  ros2 bag record /scan /velodyne_packets /velodyne_points
+ 1513  ls
+ 1514  ros2 bag play rosbag2_2024_10_11-17_29_47/
+ 1515  clear
+ 1516  ros2 bag play rosbag2_2024_10_11-17_29_47/
+ 1517  clear
+ 1518  ros2 bag play -l rosbag2_2024_10_11-17_29_47/
+ 1519  clear
+ 1520  ros2 run rviz2 rviz1
+ 1521  ros2 run rviz2 rviz2
+ 1522  ros2 topic list
+ 1523  source /opt/ros/humble/setup.bash 
+ 1524  clear
+ 1525  ros2 topic list
+ 1526  ros2 topic echo velodyne_points
+ 1527  clear
+ 1528  ros2 topic info /velodyne_points
+ 1529  ros2 topic info
+ 1530  ros2 topic list
+ 1531  clear
+ 1532  ros2 topic info /velodyne_points
+ 1533  ros2 topic list
+ 1534  ros2 topic info /velodyne_packets
+ 1535  ros2 topic info /scan
+ 1536  clear
+ 1537  ls
+ 1538  cd presentation_bot/
+ 1539  ls
+ 1540  cd PresentationRobot/
+ 1541  cd Physical/
+ 1542  ls
+ 1543  cd v5_workspace/
+ 1544  ls
+ 1545  git pull
+ 1546  git add .
+ 1547  git commit -m "requirements fix"
+ 1548  git push
+ 1549  git pull
+ 1550  git config pull.rebase false
+ 1551  git pull
+ 1552  git add .
+ 1553  colcon build
+ 1554  ./venv/bin/activate
+ 1555  source  ./venv/bin/activate
+ 1556  colcon build
+ 1557  pip install Cython
+ 1558  colcon build
+ 1559  cd ~
+ 1560  sudo nano ~/.bashrc
+ 1561  conda deactivate
+ 1562  ls
+ 1563  source venv/bin/activate
+ 1564  colcon build
+ 1565  python --version
+ 1566  colcon build
+ 1567  source /opt/ros/humble/install/setup.bash
+ 1568  source /opt/ros/humble/setup.bash
+ 1569  colcon build
+ 1570  pip install cython
+ 1571  pip install Cython
+ 1572  colcon build
+ 1573  conda deactivate
+ 1574  pip install Cython
+ 1575  cd ~
+ 1576  ls
+ 1577  cd ros2_ws
+ 1578  source ros2_ws/install/setup.bash
+ 1579  source \install/setup.bash
+ 1580  source install/setup.bash
+ 1581  cd ..
+ 1582  sudo nano .bashrc
+ 1583  /bin/python3.10 /home/bwilab/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/bwilab/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1584  ros2 launch arm_launch arm_drivers.launch.py
+ 1585  source \install/setup.bash
+ 1586  ls
+ 1587  cd v5_workspace
+ 1588  cd ~
+ 1589  /bin/python3.10 /home/bwilab/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/bwilab/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1590  /bin/python3.10 /home/bwilab/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/bwilab/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1591  ls
+ 1592  cd /home
+ 1593  ls
+ 1594  exit
+ 1595  ls
+ 1596  exit
+ 1597  source install/setup.bash
+ 1598  ros2 launch bwi_launch segbot_v5.launch.py
+ 1599  source install/setup.bash
+ 1600  ros2 run teleop_twist_keyboard teleop_twist_keyboard
+ 1601  cd bwi_ros2
+ 1602  ls
+ 1603  cd ros2
+ 1604  cd ros2_ws
+ 1605  sourcee install/seup.bash
+ 1606  source install/seup.bash
+ 1607  cd..
+ 1608  cd ..
+ 1609  ls
+ 1610  cd ros2workspace/
+ 1611  source install/seup.bash
+ 1612  ls
+ 1613  cd..
+ 1614  cd ..
+ 1615  ls
+ 1616  ip a
+ 1617  clear
+ 1618  ip a
+ 1619  nmcli
+ 1620  clear
+ 1621  exit
+ 1622  ls
+ 1623  clear
+ 1624  git clone https://github.com/utexas-bwi/bwi-ros2.git
+ 1625  cd bwi-ros2/
+ 1626  clear
+ 1627  ls
+ 1628  cd src/
+ 1629  ls
+ 1630  cd ..
+ 1631  clear
+ 1632  git submodule update --init
+ 1633  ls
+ 1634  touch .gitmodules
+ 1635  ls
+ 1636  ls -a
+ 1637  cd .git
+ 1638  ls
+ 1639  cd ..
+ 1640  git status
+ 1641  cd .git
+ 1642  ls
+ 1643  vim config 
+ 1644  cd ...
+ 1645  clear
+ 1646  cd ..
+ 1647  ls
+ 1648  code .
+ 1649  git submodule update --init
+ 1650  cd 
+ 1651  ls
+ 1652  cd ros2_ws/
+ 1653  ls
+ 1654  cd src/
+ 1655  ls
+ 1656  cd 
+ 1657  cd bwi-ros2/
+ 1658  ls
+ 1659  clear
+ 1660  git submodule update --init
+ 1661  ls
+ 1662  cd src/fri_exercises/
+ 1663  git remote get-url origin
+ 1664  git submodule update --init
+ 1665  cd ..
+ 1666  git submodule update --init
+ 1667  cd fri_exercises/
+ 1668  ls
+ 1669  cd ..
+ 1670  clear
+ 1671  ip a
+ 1672  clear
+ 1673  git submodule update --init
+ 1674  ls
+ 1675  rm -rf fri_exercises/
+ 1676  git submodule update --init
+ 1677  ls
+ 1678  ls -a
+ 1679  cd ..
+ 1680  ls -a
+ 1681  vim .gitmodules 
+ 1682  git submodule update --init
+ 1683  ip a
+ 1684  ls /etc/netplan/
+ 1685  cat /etc/netplan/02-bwibot.yaml 
+ 1686  sudo cat /etc/netplan/02-bwibot.yaml 
+ 1687  ip a
+ 1688  clear
+ 1689  lshw -C network
+ 1690  clear
+ 1691  lspci
+ 1692  clear
+ 1693  ip a
+ 1694  clear
+ 1695  acpi
+ 1696  cat /sys/class/power_supply/BAT1/status
+ 1697  clear
+ 1698  sudo apt-get install acpi
+ 1699  acpi
+ 1700  clear
+ 1701  exit
+ 1702  clear
+ 1703  ls
+ 1704  cd bwi-ros2/
+ 1705  ls
+ 1706  cd src/
+ 1707  ls
+ 1708  cd ..
+ 1709  clear
+ 1710  ls -a
+ 1711  git status
+ 1712  git submodule update --init
+ 1713  exit
+ 1714  ls /etc/netplan/
+ 1715  cat /etc/netplan/01-network-manager-all.yaml 
+ 1716  sudo cat /etc/netplan/01-network-manager-all.yaml 
+ 1717  sudo cat /etc/netplan/02-bwibot.yaml 
+ 1718  exit
+ 1719  clear
+ 1720  ip a
+ 1721  clear
+ 1722  cd /etc/netplan/
+ 1723  sudo systemctl status NetworkManager
+ 1724  ls
+ 1725  cat 01-network-manager-all.yaml 
+ 1726  ls -l
+ 1727  sudo cat 01-network-manager-all.yaml 
+ 1728  sudo cat 02-bwibot.yaml 
+ 1729  lsb_release -a
+ 1730  clear
+ 1731  ip a
+ 1732  exit
+ 1733  clear
+ 1734  nmcli device status
+ 1735  ip a
+ 1736  ipa 
+ 1737  clear
+ 1738  ip addr show
+ 1739  clear
+ 1740  exit
+ 1741  ls
+ 1742  ping 10.1.0.8
+ 1743  exit
+ 1744  ls
+ 1745  groups 
+ 1746  su -l carson
+ 1747  getent passwd 
+ 1748  scp bwiadmin@winter.csres.utexas.edu:/etc/ssl/certs/ca_server.pem ~/
+ 1749  cat ~/.ssh/id_rsa.pub
+ 1750  scp bwiadmin@winter.csres.utexas.edu:/etc/ssl/certs/ca_server.pem ~/
+ 1751  cat ~/ca_server.pem | sudo tee -a /etc/ldap/ca_certs.pem
+ 1752  rm -rf ca_server.pem 
+ 1753  sudo nano /etc/ldap/ldap.conf
+ 1754  ldapwhoami -H ldap://winter.csres.utexas.edu -x -ZZ
+ 1755  sudo nano /etc/nsswitch.conf
+ 1756  sudo nano /etc/nslcd.conf
+ 1757  sudo nano /etc/pam.d/common-auth
+ 1758  nano /etc/pam.d/common-session
+ 1759  sudo nano /etc/pam.d/common-session
+ 1760  sudo service nscd restart
+ 1761  sudo service nslcd restart
+ 1762  getent passwd 
+ 1763  su -l 1_fri
+ 1764  sudo su -l 1_fri
+ 1765  exit
+ 1766  scp bwiadmin@winter.csres.utexas.edu:/etc/ssl/certs/ca_server.pem ~/
+ 1767  cat ~/ca_server.pem | sudo tee -a /etc/ldap/ca_certs.pem
+ 1768  rm -rf ca_server.pem 
+ 1769  sudo nano /etc/ldap/ldap.conf
+ 1770  ldapwhoami -H ldap://winter.csres.utexas.edu -x -ZZ
+ 1771  sudo nano /etc/nsswitch.conf
+ 1772  sudo nano /etc/nslcd.conf
+ 1773  sudo nano /etc/pam.d/common-auth
+ 1774  nano /etc/pam.d/common-session
+ 1775  sudo service nscd restart
+ 1776  sudo service nslcd restart
+ 1777  getent passwd 
+ 1778  su -l 1_fri
+ 1779  sudo nscd -i passwd
+ 1780  sudo nscd -i group
+ 1781  su -l 1_fri
+ 1782  su -l 2_fri
+ 1783  sudo adduser test_account
+ 1784  exit
+ 1785  ros2 launch arm_launch v5_arm.launch.py 
+ 1786  ls
+ 1787  cd bwi-ros2
+ 1788  colcon buils
+ 1789  colcon build
+ 1790  sudo nano ~/.bashrc
+ 1791  source /opt/ros/humble/setup.bash
+ 1792  colcon build
+ 1793  sudo nano ~/.bashrc
+ 1794  export COLCON_WS=.
+ 1795  colcon build
+ 1796  cd ..
+ 1797  mkdir fri_ws
+ 1798  cd fri_ws
+ 1799  mkdir src
+ 1800  cd src
+ 1801  cd ..
+ 1802  colcon build
+ 1803  source install/setup.bash
+ 1804  ros2 launch arm_launch v5_arm.launch.py 
+ 1805  colcon build
+ 1806  source install/setup.bash
+ 1807  ros2 launch arm_launch v5_arm.launch.py 
+ 1808  source install/setup.bash
+ 1809  colcon build
+ 1810  ros2 launch arm_launch v5_arm.launch.py 
+ 1811  colcon build
+ 1812  ros2 launch arm_launch v5_arm.launch.py 
+ 1813  ros2 launch arm_launch arm_drivers.launch.py 
+ 1814  ros2 topic
+ 1815  ros2 topic list
+ 1816  source /opt/ros/humble/setup.bash
+ 1817  echo source /opt/ros/humble/setup.bash >> ~/.bashrc 
+ 1818  source /opt/ros/humble/setup.bash
+ 1819  ros2 topic list
+ 1820  ros2 topic echo /scaled_joint_trajectory_controller/state
+ 1821  ls
+ 1822  pip install --upgrade packaging --user
+ 1823  echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
+ 1824  echo 'export COLCON_WS=~/bwi_ros2' >> ~/.bashrc 
+ 1825  mkdir bwi_ros2
+ 1826  cd bwi_ros2
+ 1827  mkdir src
+ 1828  cd ~/bwi_ros2
+ 1829  git clone https://github.com/utexas-bwi/serial_for_ros2.git
+ 1830  cd ~/bwi_ros2/serial_for_ros2/
+ 1831  mv serial ..
+ 1832  cd ..
+ 1833  cd serial
+ 1834  rm -rf build
+ 1835  mkdir build
+ 1836  cd build
+ 1837  cmake ..
+ 1838  make
+ 1839  cd ~/bwi_ros2/src
+ 1840  git clone --branch humble https://github.com/microsoft/Azure_Kinect_ROS_Driver.git
+ 1841  git clone https://github.com/Living-With-Robots-Lab/apriltag_ros.git
+ 1842  git clone https://github.com/utexas-bwi/bwi_ros2_common.git
+ 1843  source ~/.bashrc
+ 1844  cd ~/bwi_ros2
+ 1845  source /opt/ros/humble/setup.bash
+ 1846  rosdep update
+ 1847  rosdep install --from-paths src -y --ignore-src
+ 1848  colcon build
+ 1849  source install/setup.bash
+ 1850  cd src/
+ 1851  ls
+ 1852  git clone https://github.com/JonahBlackmon/fri_autonomous_template.git
+ 1853  cd fri_autonomous_template/
+ 1854  ls
+ 1855  source ~/.bashrc
+ 1856  cd ~/bwi_ros2
+ 1857  source /opt/ros/humble/setup.bash
+ 1858  rosdep update
+ 1859  rosdep install --from-paths src -y --ignore-src
+ 1860  colcon build
+ 1861  source install/setup.bash
+ 1862  cd ~/bwi_ros2/src
+ 1863  git clone https://github.com/utexas-bwi/libsegwayrmp_ros2.git
+ 1864  mv libsegwayrmp_ros2/ libsegwayrmp
+ 1865  git clone https://github.com/utexas-bwi/segway_rmp_ros2.git
+ 1866  source ~/.bashrc
+ 1867  cd ~/bwi_ros2
+ 1868  source /opt/ros/humble/setup.bash
+ 1869  rosdep update
+ 1870  rosdep install --from-paths src -y --ignore-src
+ 1871  colcon build
+ 1872  source install/setup.bash
+ 1873  source install/setup.bash 
+ 1874  colcon build
+ 1875  colcon build --packages-select spatial_utils
+ 1876  colcon build --packages-select spatial_transforms
+ 1877  colcon build --packages-select follower_robot
+ 1878  source install/setup.bash 
+ 1879  ls
+ 1880  ls install/
+ 1881  logout
+ 1882  ls
+ 1883  echo "ros2 launch arm_launch v5_arm.launch.py" > start_instruction.txt
+ 1884  echo "ros2 launch arm_launch arm_drivers.launch.py" >> start_instruction.txt 
+ 1885  echo "ros2 topic echo /scaled_joint_trajectory_controller/state" >> start_instruction.txt 
+ 1886  cat start_instruction.txt 
+ 1887  source install/setup.bash
+ 1888  colcon build
+ 1889  source install/setup.bash 
+ 1890  cd
+ 1891  colcon build
+ 1892  clear
+ 1893  ls
+ 1894  ls src
+ 1895  cd fri_ws/
+ 1896  ls
+ 1897  colcon build
+ 1898  source install/setup.bash 
+ 1899  source /opt/ros/humble/setup.bash
+ 1900  ls
+ 1901  cat start_instruction.txt 
+ 1902  ros2 launch arm_launch arm_drivers.launch.py
+ 1903  ls
+ 1904  cd fri_ws/
+ 1905  ls
+ 1906  colcon build
+ 1907  ls
+ 1908  ros2 launch
+ 1909  ros2 launch 
+ 1910  source install/setup.bash 
+ 1911  ls
+ 1912  cd src/
+ 1913  ls
+ 1914  colcon build
+ 1915  cd ..
+ 1916  ls
+ 1917  ls build
+ 1918  ros2 launch arm_launch 
+ 1919  ls
+ 1920  ls src
+ 1921  ls
+ 1922  pip install --upgrade packaging --user
+ 1923  ros2 launch arm_launch v5_arm.launch.py
+ 1924  ros2 launch arm_launch arm_drivers.launch.py
+ 1925  source /opt/ros/humble/setup.bash
+ 1926  ros2 launch arm_launch arm_drivers.launch.py
+ 1927  colcon build arm_launch
+ 1928  colcon build
+ 1929  ros2 launch arm_launch arm_drivers.launch.py
+ 1930  ls
+ 1931  ls src
+ 1932  ls src/v5_arm/
+ 1933  ls src/v5_arm/arm_launch/
+ 1934  ls src/v5_arm/v5_moveit_config/
+ 1935  ls
+ 1936  ls ..
+ 1937  ls
+ 1938  ls install/
+ 1939  history
+ 1940  history > current_history.txt
+ 1941  ros2 control list_controllers
+ 1942  ros2 control set_controller_state scaled_joint_trajectory_controller start
+ 1943  ros2 control set_controller_state scaled_joint_trajectory_controller active
+ 1944  history
+ 1945  cat start_instruction.txt 
+ 1946  ros2 topic echo /scaled_joint_trajectory_controller/state
+ 1947  ros2 control load_controller --set-state active scaled_joint_trajectory_controller
+ 1948  history
+ 1949  ros2 control set_controller_state scaled_joint_trajectory_controller active
+ 1950  cat start_instruction.txt 
+ 1951  find ~/ros2_ws/src/arm_launch -name trajectory_execution.yaml
+ 1952  ls
+ 1953  ls src
+ 1954  ls src/v5_arm/
+ 1955  find ~/ros2_ws/src/v5_arm/arm_launch -name trajectory_execution.yaml
+ 1956  find ~/fri_ws/src/v5_arm/arm_launch -name trajectory_execution.yaml
+ 1957  find ~/fri_ws/src/v5_arm/arm_launch/ -name trajectory_execution.yaml
+ 1958  ls src/v5_arm/arm_launch/
+ 1959  ls src/v5_arm/arm_launch/config/
+ 1960  mkdir -p ~/fri_ws/src/v5_arm/arm_launch/config
+ 1961  nano ~/fri_ws/src/v5_arm/arm_launch/config/trajectory_execution.yaml
+ 1962  cat src/v5_arm/arm_launch/config/trajectory_execution.yaml 
+ 1963  nano ~/fri_ws/src/v5_arm/arm_launch/launch/v5_arm.launch.py
+ 1964  colcon build
+ 1965  Thanks for sharing your full `v5_arm.launch.py`. You're using the **`MoveItConfigsBuilder`**, which automatically constructs the MoveIt configuration from your `v5_moveit_config` package — and that includes your trajectory settings.
+ 1966  So, the good news is:
+ 1967  > ✅ You **don’t** need to manually add `trajectory_execution.yaml` in the launch file, because it’s already referenced here:
+ 1968  ```python
+ 1969  .trajectory_execution(file_path=os.path.join(config_package, "config/moveit_controllers.yaml"))
+ 1970  ```
+ 1971  But... there's a catch 👇
+ 1972  ---
+ 1973  ## ❗ Problem: You’re Loading the Wrong File for Trajectory Settings
+ 1974  The `.trajectory_execution(...)` line is expected to load **`trajectory_execution.yaml`**, not `moveit_controllers.yaml`. Those are different config files.
+ 1975  ### `trajectory_execution.yaml` sets:
+ 1976  * Timeout behavior
+ 1977  * Tolerances
+ 1978  * Scaling
+ 1979  ### `moveit_controllers.yaml` sets:
+ 1980  * Controller names
+ 1981  * Controller types
+ 1982  * Joint mappings
+ 1983  ---
+ 1984  ## ✅ Fix: Add the Missing `trajectory_execution.yaml` and Load It Separately
+ 1985  ### 1. Create the Missing YAML
+ 1986  ```bash
+ 1987  mkdir -p ~/fri_ws/src/v5_arm/v5_moveit_config/config
+ 1988  nano ~/fri_ws/src/v5_arm/v5_moveit_config/config/trajectory_execution.yaml
+ 1989  ```
+ 1990  colcon build --packages-select arm_launch
+ 1991  colcon build
+ 1992  clear
+ 1993  colcon build
+ 1994  ros2 control set_controller_state scaled_joint_trajectory_controller active
+ 1995  echo "ros2 control set_controller_state scaled_joint_trajectory_controller active" >> start_instruction.txt 
+ 1996  ros2 action send_goal /scaled_joint_trajectory_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory "{...}"
+ 1997  ros2 control set_controller_state scaled_joint_trajectory_controller active
+ 1998  ros2 topic echo /scaled_joint_trajectory_controller/state
+ 1999  [200~colcon build --packages-select v5_moveit_config
+ 2000  source install/setup.bash
+ 2001  ~colcon build --packages-select v5_moveit_config
+ 2002  source install/setup.bash
+ 2003  colcon build --packages-select v5_moveit_config
+ 2004  source install/setup.bash
+ 2005  ros2 control list_controllers
+ 2006  ros2 control list_joints
+ 2007  ros2 control switch_controllers   --activate scaled_joint_trajectory_controller   --deactivate joint_state_broadcaster   --strict
+ 2008  ros2 control list_controllers
+ 2009  ros2 control list_joints
+ 2010  ros2 topic echo /joint_states
+ 2011  ros2 control set_controller_state joint_state_broadcaster active
+ 2012  ros2 control list_controllers
+ 2013  ros2 control load_controller --set-state active scaled_joint_trajectory_controller
+ 2014  history > its_working.txt

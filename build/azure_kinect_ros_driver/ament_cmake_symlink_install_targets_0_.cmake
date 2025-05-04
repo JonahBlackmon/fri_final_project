@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/bwilab/fri_ws/build/azure_kinect_ros_driver/node" "TARGETS" "azure_kinect_ros_driver_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin" "DESTINATION" "lib/azure_kinect_ros_driver")

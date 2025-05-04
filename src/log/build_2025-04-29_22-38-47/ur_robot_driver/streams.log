@@ -1,0 +1,187 @@
+[0.013s] Invoking command in '/home/bwilab/fri_ws/src/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/rviz_marker_tools:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/pick_place_msgs:/home/bwilab/fri_ws/install/moveit_task_constructor_msgs:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/apriltag_msgs:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/v5_arm/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/src/install/ur_robot_driver
+[0.074s] -- The C compiler identification is GNU 12.1.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /home/bwilab/miniconda3/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.192s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.259s] [0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.262s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.525s] -- Found Python3: /home/bwilab/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[0.635s] -- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)
+[0.708s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.717s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.731s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.118s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.123s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.162s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.209s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.212s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.231s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.235s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.242s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.252s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.323s] -- Looking for pthread_create in pthreads
+[1.367s] -- Looking for pthread_create in pthreads - not found
+[1.367s] -- Looking for pthread_create in pthread
+[1.418s] -- Looking for pthread_create in pthread - found
+[1.419s] -- Found Threads: TRUE  
+[1.542s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.545s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.559s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.582s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.584s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.584s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.672s] -- Found ur_dashboard_msgs: 2.2.15 (/opt/ros/humble/share/ur_dashboard_msgs/cmake)
+[2.019s] -- Found ur_controllers: 2.2.16 (/opt/ros/humble/share/ur_controllers/cmake)
+[2.053s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.125s] -- Found ur_description: 2.1.5 (/home/bwilab/fri_ws/src/install/ur_description/share/ur_description/cmake)
+[2.128s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.132s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.148s] -- Found PythonInterp: /home/bwilab/miniconda3/bin/python3 (found suitable version "3.12.2", minimum required is "3.6") 
+[2.152s] -- Found PythonLibs: /home/bwilab/miniconda3/lib/libpython3.12.so (found suitable version "3.12.2", minimum required is "3.5") 
+[2.152s] -- Using PYTHON_EXECUTABLE: /home/bwilab/miniconda3/bin/python3
+[2.152s] -- Using PYTHON_INCLUDE_DIRS: /home/bwilab/miniconda3/include/python3.12
+[2.152s] -- Using PYTHON_LIBRARIES: /home/bwilab/miniconda3/lib/libpython3.12.so
+[2.168s] -- Found PythonExtra: .so  
+[2.169s] -- Configuring done (2.1s)
+[2.320s] -- Generating done (0.1s)
+[2.322s] -- Build files have been written to: /home/bwilab/fri_ws/src/build/ur_robot_driver
+[2.339s] Invoked command in '/home/bwilab/fri_ws/src/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/rviz_marker_tools:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/pick_place_msgs:/home/bwilab/fri_ws/install/moveit_task_constructor_msgs:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/apriltag_msgs:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/v5_arm/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/src/install/ur_robot_driver
+[2.340s] Invoking command in '/home/bwilab/fri_ws/src/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/rviz_marker_tools:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/pick_place_msgs:/home/bwilab/fri_ws/install/moveit_task_constructor_msgs:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/apriltag_msgs:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/src/build/ur_robot_driver -- -j16 -l16
+[2.382s] [  6%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[2.382s] [ 13%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[2.382s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[2.382s] [ 33%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[2.382s] [ 40%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[2.382s] [ 40%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[2.382s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[2.383s] [ 53%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[2.383s] [ 60%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[2.383s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[2.385s] [ 66%] Built target ament_cmake_python_copy_ur_robot_driver
+[2.566s] running egg_info
+[2.567s] creating ur_robot_driver.egg-info
+[2.588s] writing ur_robot_driver.egg-info/PKG-INFO
+[2.589s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[2.589s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[2.589s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[2.651s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[2.651s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[2.688s] [ 66%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[7.790s] [ 73%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[8.022s] [ 73%] Built target ur_ros2_control_node
+[15.048s] [ 80%] [32m[1mLinking CXX executable urscript_interface[0m
+[15.322s] [ 80%] Built target urscript_interface
+[17.579s] [ 86%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[17.877s] [ 86%] Built target controller_stopper_node
+[19.820s] [ 93%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[20.001s] [100%] [32m[1mLinking CXX executable dashboard_client[0m
+[20.140s] [100%] Built target ur_robot_driver_plugin
+[20.290s] [100%] Built target dashboard_client
+[20.298s] Invoked command in '/home/bwilab/fri_ws/src/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/rviz_marker_tools:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/pick_place_msgs:/home/bwilab/fri_ws/install/moveit_task_constructor_msgs:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/apriltag_msgs:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/src/build/ur_robot_driver -- -j16 -l16
+[20.364s] Invoking command in '/home/bwilab/fri_ws/src/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/rviz_marker_tools:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/pick_place_msgs:/home/bwilab/fri_ws/install/moveit_task_constructor_msgs:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/apriltag_msgs:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/src/build/ur_robot_driver
+[20.386s] -- Install configuration: "RelWithDebInfo"
+[20.386s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[20.386s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[20.401s] -- Set runtime path of "/home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client" to ""
+[20.401s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[20.403s] -- Set runtime path of "/home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node" to ""
+[20.403s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[20.417s] -- Set runtime path of "/home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node" to ""
+[20.417s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[20.428s] -- Set runtime path of "/home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface" to ""
+[20.428s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[20.445s] -- Set runtime path of "/home/bwilab/fri_ws/src/install/ur_robot_driver/lib/libur_robot_driver_plugin.so" to ""
+[20.445s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/include
+[20.445s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver
+[20.445s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[20.445s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[20.445s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[20.445s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[20.445s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[20.445s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[20.446s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/resources
+[20.446s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[20.446s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[20.447s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[20.447s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[20.447s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[20.448s] -- Up-to-date: /home/bwilab/fri_ws/src/install/ur_robot_driver/include
+[20.448s] -- Up-to-date: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver
+[20.448s] -- Up-to-date: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[20.448s] -- Up-to-date: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[20.448s] -- Up-to-date: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[20.448s] -- Up-to-date: /home/bwilab/fri_ws/src/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[20.448s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[20.448s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[20.448s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-2.2.16-py3.12.egg-info
+[20.448s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-2.2.16-py3.12.egg-info/dependency_links.txt
+[20.448s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-2.2.16-py3.12.egg-info/top_level.txt
+[20.448s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-2.2.16-py3.12.egg-info/PKG-INFO
+[20.449s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-2.2.16-py3.12.egg-info/SOURCES.txt
+[20.449s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver
+[20.449s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver/__init__.py
+[20.476s] Listing '/home/bwilab/fri_ws/src/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver'...
+[20.476s] Compiling '/home/bwilab/fri_ws/src/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver/__init__.py'...
+[20.479s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[20.479s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[20.479s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[20.480s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config
+[20.480s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[20.480s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[20.480s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[20.481s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[20.482s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[20.482s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[20.483s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[20.483s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[20.483s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[20.483s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[20.483s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[20.484s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[20.484s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch
+[20.484s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[20.484s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[20.484s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[20.485s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[20.485s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[20.485s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[20.485s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[20.485s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[20.486s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[20.486s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[20.486s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[20.486s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[20.487s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[20.487s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[20.487s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[20.487s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[20.488s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[20.488s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[20.488s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[20.488s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[20.488s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[20.488s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[20.488s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[20.488s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[20.489s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[20.489s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[20.489s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[20.490s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.490s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[20.490s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.490s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[20.490s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[20.490s] -- Installing: /home/bwilab/fri_ws/src/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[20.497s] Invoked command in '/home/bwilab/fri_ws/src/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/rviz_marker_tools:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/pick_place_msgs:/home/bwilab/fri_ws/install/moveit_task_constructor_msgs:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/apriltag_msgs:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/src/build/ur_robot_driver

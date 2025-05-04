@@ -1,0 +1,4 @@
+Invoking command in '/home/bwilab/fri_ws/src/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/src/build/ur_description -- -j16 -l16
+Invoked command in '/home/bwilab/fri_ws/src/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/src/build/ur_description -- -j16 -l16
+Invoking command in '/home/bwilab/fri_ws/src/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/src/build/ur_description
+Invoked command in '/home/bwilab/fri_ws/src/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/src/build/ur_description

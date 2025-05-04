@@ -1,0 +1,26 @@
+[1.159s] Invoking command in '/home/bwilab/fri_ws/build/ur5_wave': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/ur5_wave/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/ur5_wave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bwilab/fri_ws/build/ur5_wave/build --no-deps symlink_data
+[1.415s] running develop
+[1.415s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.416s]   warnings.warn(
+[1.614s] running egg_info
+[1.614s] creating ur5_wave.egg-info
+[1.614s] writing ur5_wave.egg-info/PKG-INFO
+[1.614s] writing dependency_links to ur5_wave.egg-info/dependency_links.txt
+[1.614s] writing entry points to ur5_wave.egg-info/entry_points.txt
+[1.614s] writing requirements to ur5_wave.egg-info/requires.txt
+[1.614s] writing top-level names to ur5_wave.egg-info/top_level.txt
+[1.615s] writing manifest file 'ur5_wave.egg-info/SOURCES.txt'
+[1.616s] reading manifest file 'ur5_wave.egg-info/SOURCES.txt'
+[1.617s] writing manifest file 'ur5_wave.egg-info/SOURCES.txt'
+[1.651s] running build_ext
+[1.651s] Creating /home/bwilab/fri_ws/install/ur5_wave/lib/python3.10/site-packages/ur5-wave.egg-link (link to .)
+[1.652s] Installing wave_node script to /home/bwilab/fri_ws/install/ur5_wave/lib/ur5_wave
+[1.652s] 
+[1.652s] Installed /home/bwilab/fri_ws/build/ur5_wave
+[1.652s] running symlink_data
+[1.652s] creating /home/bwilab/fri_ws/install/ur5_wave/share/ament_index
+[1.653s] creating /home/bwilab/fri_ws/install/ur5_wave/share/ament_index/resource_index
+[1.653s] creating /home/bwilab/fri_ws/install/ur5_wave/share/ament_index/resource_index/packages
+[1.653s] symbolically linking /home/bwilab/fri_ws/build/ur5_wave/resource/ur5_wave -> /home/bwilab/fri_ws/install/ur5_wave/share/ament_index/resource_index/packages
+[1.653s] symbolically linking /home/bwilab/fri_ws/build/ur5_wave/package.xml -> /home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave
+[1.710s] Invoked command in '/home/bwilab/fri_ws/build/ur5_wave' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/ur5_wave/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/ur5_wave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/bwilab/fri_ws/build/ur5_wave/build --no-deps symlink_data

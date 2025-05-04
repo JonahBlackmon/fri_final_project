@@ -1,0 +1,1 @@
+/home/bwilab/fri_ws/src/v5_arm/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp

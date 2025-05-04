@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 12.1.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/bwilab/miniconda3/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/bwilab/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/bwilab/fri_ws/build/v5_moveit_config
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/ament_index/resource_index/package_run_dependencies/v5_moveit_config
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/ament_index/resource_index/parent_prefix_path/v5_moveit_config
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/environment/ament_prefix_path.sh
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/environment/ament_prefix_path.dsv
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/environment/path.sh
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/environment/path.dsv
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/local_setup.bash
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/local_setup.sh
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/local_setup.zsh
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/local_setup.dsv
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.dsv
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/ament_index/resource_index/packages/v5_moveit_config
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/cmake/v5_moveit_configConfig.cmake
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/cmake/v5_moveit_configConfig-version.cmake
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.xml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/demo.launch.py
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/move_group.launch.py
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/moveit_rviz.launch.py
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/rsp.launch.py
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/setup_assistant.launch.py
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/spawn_controllers.launch.py
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/warehouse_db.launch.py
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/initial_positions.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/joint_limits.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/kinematics.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/moveit.rviz
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/moveit_controllers.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ompl_planning.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ros2_controllers.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/sensors_3d.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/sensors_kinect_depthmap.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/sensors_kinect_pointcloud.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/trajectory_execution.yaml
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ur5_with_gripper.ros2_control.xacro
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ur5_with_gripper.srdf
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ur5_with_gripper.urdf.xacro
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/v5_with_arm.srdf
+-- Symlinking: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/.setup_assistant

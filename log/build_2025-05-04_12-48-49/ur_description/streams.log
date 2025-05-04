@@ -1,0 +1,214 @@
+[0.028s] Invoking command in '/home/bwilab/fri_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/v5_arm/ur_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/install/ur_description
+[0.319s] -- The C compiler identification is GNU 12.1.0
+[0.319s] -- The CXX compiler identification is GNU 11.4.0
+[0.319s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /home/bwilab/miniconda3/bin/cc - skipped
+[0.320s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.320s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.320s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.320s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.608s] -- Found Python3: /home/bwilab/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[0.685s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.719s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.732s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[0.732s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[0.732s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[0.732s]   using pip.
+[0.733s] Call Stack (most recent call first):
+[0.733s]   CMakeLists.txt:16 (ament_add_pytest_test)
+[0.733s] 
+[0.733s] [0m
+[0.747s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[0.747s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[0.748s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[0.748s]   using pip.
+[0.748s] Call Stack (most recent call first):
+[0.748s]   CMakeLists.txt:17 (ament_add_pytest_test)
+[0.748s] 
+[0.748s] [0m
+[0.829s] -- Configuring done (0.8s)
+[0.831s] -- Generating done (0.0s)
+[0.832s] -- Build files have been written to: /home/bwilab/fri_ws/build/ur_description
+[0.843s] Invoked command in '/home/bwilab/fri_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/v5_arm/ur_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/install/ur_description
+[0.845s] Invoking command in '/home/bwilab/fri_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/ur_description -- -j16 -l16
+[0.883s] Invoked command in '/home/bwilab/fri_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/ur_description -- -j16 -l16
+[0.950s] Invoking command in '/home/bwilab/fri_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/ur_description
+[0.973s] -- Install configuration: ""
+[0.973s] -- Execute custom install script
+[0.974s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[0.976s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[0.978s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[0.981s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[0.983s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[0.985s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[0.987s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[0.990s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[0.992s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[0.994s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[0.997s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[0.999s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.001s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.003s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.006s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.008s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.010s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.013s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.015s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.017s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.019s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.022s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[1.024s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[1.027s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[1.030s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[1.031s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.034s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.036s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.039s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.041s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.043s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[1.046s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[1.048s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[1.051s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[1.054s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[1.057s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[1.060s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[1.063s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[1.067s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[1.070s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[1.072s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[1.076s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[1.078s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[1.081s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.084s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.086s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.088s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.091s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.093s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.095s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.097s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.100s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.103s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.106s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.108s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.110s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.113s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.115s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.118s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.121s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.123s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.126s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.129s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.131s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.134s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.137s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.140s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[1.144s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[1.146s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[1.149s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[1.151s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[1.153s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[1.155s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[1.158s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[1.160s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[1.163s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[1.165s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[1.167s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[1.170s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[1.172s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[1.175s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[1.177s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[1.181s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[1.182s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[1.184s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[1.186s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[1.189s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[1.191s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[1.193s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[1.195s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[1.198s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[1.200s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[1.203s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[1.205s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[1.207s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[1.210s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[1.212s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[1.215s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[1.217s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[1.220s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[1.222s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[1.224s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[1.227s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[1.229s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[1.232s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[1.235s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[1.237s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[1.239s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[1.242s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[1.244s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[1.246s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[1.249s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[1.251s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[1.253s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[1.255s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[1.258s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[1.260s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[1.262s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[1.265s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[1.267s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[1.270s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[1.272s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[1.274s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[1.277s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[1.279s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[1.282s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[1.284s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[1.286s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[1.289s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[1.291s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[1.293s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[1.295s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[1.297s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[1.300s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[1.302s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[1.304s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[1.306s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[1.309s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[1.311s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[1.313s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[1.315s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[1.317s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[1.319s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[1.321s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[1.323s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[1.326s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[1.328s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[1.330s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[1.333s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[1.335s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[1.337s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[1.340s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[1.343s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[1.345s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[1.348s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[1.350s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[1.353s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[1.355s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[1.358s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[1.360s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[1.362s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/environment/path.sh
+[1.364s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/environment/path.dsv
+[1.367s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/local_setup.bash
+[1.369s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/local_setup.sh
+[1.372s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/local_setup.zsh
+[1.374s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/local_setup.dsv
+[1.376s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/package.dsv
+[1.379s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[1.381s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[1.383s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[1.385s] -- Symlinking: /home/bwilab/fri_ws/install/ur_description/share/ur_description/package.xml
+[1.393s] Invoked command in '/home/bwilab/fri_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/ur_description

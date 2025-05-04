@@ -1,0 +1,6 @@
+ros2 launch arm_launch v5_arm.launch.py
+ros2 launch arm_launch arm_drivers.launch.py
+ros2 topic echo /scaled_joint_trajectory_controller/state
+ros2 control set_controller_state scaled_joint_trajectory_controller active
+ros2 launch v5_moveit_config moveit.launch.py gui:=true stationary:=true
+ros2 run ur5_wave wave_node

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ur5_wave.egg-info
+writing ur5_wave.egg-info/PKG-INFO
+writing dependency_links to ur5_wave.egg-info/dependency_links.txt
+writing entry points to ur5_wave.egg-info/entry_points.txt
+writing requirements to ur5_wave.egg-info/requires.txt
+writing top-level names to ur5_wave.egg-info/top_level.txt
+writing manifest file 'ur5_wave.egg-info/SOURCES.txt'
+reading manifest file 'ur5_wave.egg-info/SOURCES.txt'
+writing manifest file 'ur5_wave.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bwilab/fri_ws/install/ur5_wave/lib/python3.10/site-packages/ur5-wave.egg-link (link to .)
+Installing wave_node script to /home/bwilab/fri_ws/install/ur5_wave/lib/ur5_wave
+
+Installed /home/bwilab/fri_ws/build/ur5_wave
+running symlink_data
+creating /home/bwilab/fri_ws/install/ur5_wave/share/ament_index
+creating /home/bwilab/fri_ws/install/ur5_wave/share/ament_index/resource_index
+creating /home/bwilab/fri_ws/install/ur5_wave/share/ament_index/resource_index/packages
+symbolically linking /home/bwilab/fri_ws/build/ur5_wave/resource/ur5_wave -> /home/bwilab/fri_ws/install/ur5_wave/share/ament_index/resource_index/packages
+symbolically linking /home/bwilab/fri_ws/build/ur5_wave/package.xml -> /home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave
