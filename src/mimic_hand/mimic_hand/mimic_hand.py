@@ -40,8 +40,6 @@ class MimicNode(Node):
         self.angle_change_threshold = math.radians(2)  # Minimum 2° change
         self.move_interval = 0.5  # Minimum 0.5s between motions
 
-
-
         # Joint configuration
         self.joint_names = [
             'ur5_shoulder_pan_joint',
@@ -51,8 +49,6 @@ class MimicNode(Node):
             'ur5_wrist_2_joint',
             'ur5_wrist_3_joint'
         ]
-
-        
 
         self.max_joint_speed = math.radians(60)  # Max joint speed in rad/s
         self.current_joint_positions = {}
@@ -81,48 +77,45 @@ class MimicNode(Node):
 
     def angle_callback(self, msg):
         new_angle_deg = msg.data
-        # Adjust the angle by subtracting 87° to align with your "0" angle
-        adjusted_angle_deg = new_angle_deg - 87
-
-        # Normalize the adjusted angle to ensure it stays within the 0-360 range
-        if adjusted_angle_deg < 0:
-            adjusted_angle_deg += 360
-        elif adjusted_angle_deg >= 360:
-            adjusted_angle_deg -= 360
-
-        # Convert the adjusted angle to radians
-        adjusted_angle_rad = math.radians(adjusted_angle_deg)
-
-        # Invert the angle to correct the direction (negate it for left-right inversion)
-        adjusted_angle_rad = -adjusted_angle_rad  # Flip left-right movement
-
-        # Now fix the vertical (up/down) direction:
-        # If the angle is pointing in the 'up' direction, we need to negate it to correct the inversion
-        if adjusted_angle_deg < 180:
-            adjusted_angle_rad = -adjusted_angle_rad  # Flip the direction for the "upward" angles
-
-        # Print the adjusted angle
-        self.get_logger().info(f"Adjusted middle finger angle: {adjusted_angle_deg}° (original: {new_angle_deg}°)")
-
+        self.get_logger().info(f"Original angle: {new_angle_deg}°")
+        
+        # Step 1: First, reflect around 180° as before
+        mirrored_angle = 360 - new_angle_deg
+        
+        # Step 2: Now shift the center from 180° to 80°
+        # We need to subtract 100° (the difference between 180° and 80°)
+        adjusted_angle = mirrored_angle - 100
+        
+        # Step 3: Normalize to 0-360 range
+        if adjusted_angle < 0:
+            adjusted_angle += 360
+        elif adjusted_angle >= 360:
+            adjusted_angle -= 360
+        
+        # Convert to radians for the UR5
+        adjusted_angle_rad = math.radians(adjusted_angle)
+        
+        # Log the transformation
+        self.get_logger().info(f"Hand angle: {new_angle_deg}° → Robot angle: {adjusted_angle}° (centered at 80°)")
+        
+        # Check if the angle change is significant and if enough time has passed
         now = time.time()
         time_since_last_move = now - self.last_move_time
-
-        # Check if the angle change is significant
+        
         angle_diff_ok = (
             self.last_sent_angle is None or 
             abs(adjusted_angle_rad - self.last_sent_angle) >= self.angle_change_threshold
         )
-
-        # Check if enough time has passed
+        
         time_ok = time_since_last_move >= self.move_interval
-
+        
         if angle_diff_ok and time_ok:
-            # Set the goal pose to the adjusted and inverted angle for the wrist
+            # Set the goal pose to the adjusted angle for the wrist
             self.goal_pose[4] = adjusted_angle_rad
-            self.latest_middle_finger_angle = adjusted_angle_deg
+            self.latest_middle_finger_angle = adjusted_angle  # Store as degrees
             self.last_sent_angle = adjusted_angle_rad
             self.last_move_time = now
-
+            
             self.get_logger().info(
                 f"Moving to new wrist angle: {adjusted_angle_rad:.2f} rad "
                 f"(Δangle ≥ {self.angle_change_threshold:.2f} rad, Δt ≥ {self.move_interval:.2f}s)"
@@ -135,14 +128,6 @@ class MimicNode(Node):
             if not time_ok:
                 reason.append(f"only {time_since_last_move:.2f}s since last move")
             self.get_logger().debug(f"Skipping move: {', '.join(reason)}")
-
-
-
-
-
-
-
-
 
     def joint_state_callback(self, msg):
         for name, position in zip(msg.name, msg.position):

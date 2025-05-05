@@ -1,3 +1,0 @@
-[console_scripts]
-wave_node = ur5_wave.wave:main
-

@@ -1,2 +1,0 @@
-Invoking command in '/home/bwilab/fri_ws/build/arm_launch': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/recognition_node /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/v5_arm/arm_launch -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/install/arm_launch
-Invoked command in '/home/bwilab/fri_ws/build/arm_launch' returned '1': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/recognition_node /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/v5_arm/arm_launch -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/install/arm_launch
