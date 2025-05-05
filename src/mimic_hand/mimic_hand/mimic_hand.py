@@ -34,11 +34,13 @@ class MimicNode(Node):
             10
         )
 
-        self.latest_middle_finger_angle = None  # Store the latest received angle
+        # Initial states
+        self.latest_middle_finger_angle = None 
         self.last_sent_angle = None
         self.last_move_time = time.time()
-        self.angle_change_threshold = math.radians(2)  # Minimum 2° change
-        self.move_interval = 0.5  # Minimum 0.5s between motions
+        self.angle_change_threshold = math.radians(2)
+        self.move_interval = 0.5
+        self.last_sent_angle = None
 
         # Joint configuration
         self.joint_names = [
@@ -53,7 +55,6 @@ class MimicNode(Node):
         self.max_joint_speed = math.radians(60)  # Max joint speed in rad/s
         self.current_joint_positions = {}
 
-        # Define initial and goal poses
         self.initial_pose = [
             math.radians(48.52),
             math.radians(-169.29),
@@ -64,8 +65,9 @@ class MimicNode(Node):
         ]
 
         self.goal_pose = self.initial_pose.copy()
+        
         # Change to be the subscribed angle
-        self.goal_pose[4] = math.radians(127.36)  # waving via wrist_2
+        self.goal_pose[4] = math.radians(127.36)  # imitation via wrist_2
 
         # Wait for joint state info and move to initial pose
         self.get_logger().info("Waiting for joint states...")
@@ -73,32 +75,25 @@ class MimicNode(Node):
         self.move_to_pose(self.initial_pose)
         self.get_logger().info("Ready to detect")
 
-        self.last_sent_angle = None  # Add in __init__
-
     def angle_callback(self, msg):
         new_angle_deg = msg.data
         self.get_logger().info(f"Original angle: {new_angle_deg}°")
         
-        # Step 1: First, reflect around 180° as before
+        # Converts the palm angle to the angle used by the arm
         mirrored_angle = 360 - new_angle_deg
-        
-        # Step 2: Now shift the center from 180° to 80°
-        # We need to subtract 100° (the difference between 180° and 80°)
         adjusted_angle = mirrored_angle - 100
         
-        # Step 3: Normalize to 0-360 range
         if adjusted_angle < 0:
             adjusted_angle += 360
         elif adjusted_angle >= 360:
             adjusted_angle -= 360
-        
-        # Convert to radians for the UR5
+
         adjusted_angle_rad = math.radians(adjusted_angle)
         
-        # Log the transformation
+        # Debugging
         self.get_logger().info(f"Hand angle: {new_angle_deg}° → Robot angle: {adjusted_angle}° (centered at 80°)")
         
-        # Check if the angle change is significant and if enough time has passed
+        # Thresholding
         now = time.time()
         time_since_last_move = now - self.last_move_time
         
@@ -154,7 +149,7 @@ class MimicNode(Node):
 
         if max_deviation < math.radians(5):
             self.get_logger().info("Already at target pose, skipping motion.")
-            return 0.0  # No delay needed
+            return 0.0
 
         traj_msg = JointTrajectory()
         traj_msg.joint_names = self.joint_names
@@ -163,7 +158,7 @@ class MimicNode(Node):
         point.positions = target_positions
         point.velocities = [0.0] * len(target_positions)
 
-        # Compute adaptive duration
+        # Dynamic time adaptation
         max_delta = max(deviations)
         duration_sec = max(1.0, max_delta / self.max_joint_speed)
 
@@ -176,7 +171,7 @@ class MimicNode(Node):
         self.publisher_.publish(traj_msg)
 
         self.get_logger().info(f"Sent trajectory with duration {duration_sec:.2f}s")
-        return duration_sec  # Return so control loop can wait accordingly
+        return duration_sec
 
 
 def main(args=None):

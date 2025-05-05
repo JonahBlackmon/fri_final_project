@@ -61,10 +61,10 @@ class UR5MotionNode(Node):
 
         # Palm detection and wave control
         self.palm_detected = False
-        self.wave_state = "initial"  # Tracks current state: "initial" or "goal"
+        self.wave_state = "initial"  
         self.last_palm_detection_time = 0
-        self.palm_timeout = 1.0  # seconds without palm = lost detection
-        self.last_wave_allowed_time = 0  # When next wave can start
+        self.palm_timeout = 1.0  
+        self.last_wave_allowed_time = 0  
 
         # Create heartbeat timer for control loop
         self.heartbeat_timer = self.create_timer(0.5, self.heartbeat_callback)
@@ -109,7 +109,6 @@ class UR5MotionNode(Node):
                 duration = self.move_to_pose(self.initial_pose)
                 self.wave_state = "initial"
 
-            # Schedule next motion time based on duration + buffer
             self.last_wave_allowed_time = current_time + duration + 0.5  # buffer to settle
 
     def wait_for_joint_states(self, timeout=5.0):
@@ -155,7 +154,7 @@ class UR5MotionNode(Node):
         self.publisher_.publish(traj_msg)
 
         self.get_logger().info(f"Sent trajectory with duration {duration_sec:.2f}s")
-        return duration_sec  # Return so control loop can wait accordingly
+        return duration_sec
 
 
 def main(args=None):

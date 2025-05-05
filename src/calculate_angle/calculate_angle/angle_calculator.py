@@ -33,17 +33,12 @@ class MiddleFingerAngleCalculator:
         self.TEXT_COLOR = (255, 255, 255)  # White
 
     def process_frame(self, frame):
-        # Convert BGR to RGB
+
         frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        
-        # Process the frame to detect hands
         results = self.hands.process(frame_rgb)
-        
-        # Create a copy of the frame for visualization
         visualization = frame.copy()
         height, width, _ = frame.shape
         
-        # Prepare output data
         output_data = {
             "hand_detected": False,
             "is_hand_open": False,
@@ -99,10 +94,7 @@ class MiddleFingerAngleCalculator:
         return visualization, output_data
 
     def _is_hand_open(self, landmarks):
-        """
-        Determine if the hand is open by checking the positions of fingertips
-        relative to their respective MCPs (knuckles).
-        """
+
         # Define fingertip and MCP landmark indices
         fingertips = [4, 8, 12, 16, 20]  # Thumb, index, middle, ring, pinky tips
         mcps = [2, 5, 9, 13, 17]  # Corresponding MCP joints
@@ -137,13 +129,6 @@ class MiddleFingerAngleCalculator:
         return extended_fingers >= 4
 
     def _calculate_middle_finger_angle(self, landmarks):
-        """
-        Calculate:
-        1. The angle of the middle finger relative to the palm
-        2. The overall direction of the palm
-        
-        Returns angles in degrees.
-        """
         # Get coordinates of relevant landmarks
         wrist = (landmarks[self.WRIST].x, landmarks[self.WRIST].y)
         palm_center = (landmarks[self.PALM_CENTER].x, landmarks[self.PALM_CENTER].y)
@@ -217,23 +202,19 @@ class MiddleFingerAngleCalculator:
         start_angle = (palm_direction - 90) % 360
         end_angle = (finger_direction - 90) % 360
         
-        # Ensure we draw the smaller angle
         if abs(end_angle - start_angle) > 180:
             if start_angle < end_angle:
                 start_angle += 360
             else:
                 end_angle += 360
                 
-        # Convert angles to radians for OpenCV
         start_angle_rad = math.radians(start_angle)
         end_angle_rad = math.radians(end_angle)
         
-        # Draw the angle arc
         cv2.ellipse(frame, middle_mcp, (radius, radius), 0, 
                    min(start_angle, end_angle), max(start_angle, end_angle), 
                    (255, 0, 255), 2)
-        
-        # Add angle text near the arc
+
         text_x = middle_mcp[0] + int(radius * 1.5 * math.cos(math.radians((start_angle + end_angle) / 2)))
         text_y = middle_mcp[1] + int(radius * 1.5 * math.sin(math.radians((start_angle + end_angle) / 2)))
         cv2.putText(frame, f"{angle:.1f}°", (text_x, text_y), 
@@ -257,22 +238,18 @@ def main():
                 print("Failed to capture frame.")
                 continue
 
-            # Process the frame and get the output data
             visualization, data = calculator.process_frame(frame)
 
-            # Check if the hand is detected and the palm direction is available
             if data["hand_detected"] and data["palm_direction"] is not None:
-                # Publish palm_direction instead of middle_finger_angle
-                msg = Float32()
-                msg.data = float(data["palm_direction"])  # Publish palm direction
 
-                # Publish the message
+                msg = Float32()
+                msg.data = float(data["palm_direction"])
+
                 publisher.publish(msg)
                 
-                # Print the palm direction for debugging
+                # Debugging
                 print(f"Published palm direction: {msg.data:.1f}°")
 
-            # Display the frame with visualizations
             cv2.imshow('Middle Finger Angle', visualization)
 
             # Exit if the user presses 'q'

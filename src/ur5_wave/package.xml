@@ -2,10 +2,10 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>ur5_wave</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="madhanimansi56@gmail.com">bwilab</maintainer>
-  <license>TODO: License declaration</license>
+  <version>1.0.0</version>
+  <description>Subscribes to recognition_node and waves the arm systematically only while someone is current waving at the camera</description>
+  <maintainer email="JonahKBlackmon@gmail.com">bwilab</maintainer>
+  <license>MIT</license>
 
   <depend>rclpy</depend>
   <depend>moveit_commander</depend>
