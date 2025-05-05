@@ -43,7 +43,7 @@ class UR5MotionNode(Node):
             'ur5_wrist_3_joint'
         ]
 
-        self.max_joint_speed = math.radians(60)  # Max joint speed in rad/s
+        self.max_joint_speed = math.radians(80)  # Max joint speed in rad/s
         self.current_joint_positions = {}
 
         # Define initial and goal poses
@@ -67,7 +67,7 @@ class UR5MotionNode(Node):
         self.last_wave_allowed_time = 0  
 
         # Create heartbeat timer for control loop
-        self.heartbeat_timer = self.create_timer(0.5, self.heartbeat_callback)
+        self.heartbeat_timer = self.create_timer(0.1, self.heartbeat_callback)
 
         # Wait for joint state info and move to initial pose
         self.get_logger().info("Waiting for joint states...")
@@ -109,7 +109,7 @@ class UR5MotionNode(Node):
                 duration = self.move_to_pose(self.initial_pose)
                 self.wave_state = "initial"
 
-            self.last_wave_allowed_time = current_time + duration + 0.5  # buffer to settle
+            self.last_wave_allowed_time = current_time + duration
 
     def wait_for_joint_states(self, timeout=5.0):
         start = time.time()
