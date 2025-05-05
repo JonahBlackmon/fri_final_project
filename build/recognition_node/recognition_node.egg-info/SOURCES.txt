@@ -9,7 +9,6 @@ setup.py
 ../../build/recognition_node/recognition_node.egg-info/top_level.txt
 ../../build/recognition_node/recognition_node.egg-info/zip-safe
 recognition_node/__init__.py
-recognition_node/angle_calculator.py
 recognition_node/gesture_recognition.py
 recognition_node/gesture_recognition_node.py
 resource/recognition_node
