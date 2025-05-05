@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -894,12 +894,8 @@ _Python3_EXECUTABLE:INTERNAL=/home/bwilab/miniconda3/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;2;64;;cpython-312-x86_64-linux-gnu;abi3;/home/bwilab/miniconda3/lib/python3.12;/home/bwilab/miniconda3/lib/python3.12;/home/bwilab/miniconda3/lib/python3.12/site-packages;/home/bwilab/miniconda3/lib/python3.12/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=c87e74eea9a30c6d28f022458a6314e8
-//Interpreter reason failure
-_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=2
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

@@ -4,6 +4,7 @@ from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from sensor_msgs.msg import JointState
 import math
 import time
+from std_msgs.msg import Bool
 from builtin_interfaces.msg import Duration
 
 
@@ -24,6 +25,13 @@ class UR5MotionNode(Node):
             10
         )
 
+        self.palm_detected_sub = self.create_subscription(
+            Bool,
+            'palm_detected',
+            self.palm_callback,
+            10
+        )
+
         self.joint_names = [
             'ur5_shoulder_pan_joint',
             'ur5_shoulder_lift_joint',
@@ -35,7 +43,6 @@ class UR5MotionNode(Node):
 
         self.current_joint_positions = {}
 
-        # Example poses
         self.initial_pose = [
             math.radians(48.52),
             math.radians(-169.29),
@@ -45,32 +52,73 @@ class UR5MotionNode(Node):
             math.radians(-1.41)
         ]
 
-        # self.goal_pose = [
-        #     math.radians(48.52),
-        #     math.radians(-169.29),
-        #     math.radians(160.07),
-        #     math.radians(-115.57),
-        #     math.radians(127.36),  # different only in wrist_2
-        #     math.radians(-1.41)
-        # ]
         self.goal_pose = self.initial_pose.copy()
-        self.goal_pose[4] = math.radians(127.36)  # waving motion via wrist_2_joint
+        self.goal_pose[4] = math.radians(127.36)
 
+        # State variables
+        self.palm_detected = False
+        self.wave_state = "initial"  # States: "initial", "goal"
+        self.last_palm_detection_time = 0
+        self.last_wave_time = 0
+        self.wave_interval = 3.0  # Time between wave motions
+        self.palm_timeout = 1.0  # Consider palm lost if no detection for this long
+        
+        # Heartbeat timer to manage wave state and check for palm timeouts
+        self.heartbeat_timer = self.create_timer(0.5, self.heartbeat_callback)
+        
+        # Make sure we have joint states before starting
         self.get_logger().info("Waiting for joint states...")
         self.wait_for_joint_states()
 
-        # General motion plan: just plug in goal states here
+        # Move to initial position at startup
         self.move_to_pose(self.initial_pose)
-        self.move_to_pose(self.goal_pose)
-        self.move_to_pose(self.initial_pose)
-
-        self.get_logger().info("Motion sequence complete.")
+        self.get_logger().info("Ready to detect palms and wave.")
 
     def joint_state_callback(self, msg):
+        """Store joint positions from joint state messages"""
         for name, position in zip(msg.name, msg.position):
             self.current_joint_positions[name] = position
 
+    def palm_callback(self, msg):
+        """Handle palm detection messages"""
+        current_time = time.time()
+        
+        if msg.data:  # Palm detected
+            if not self.palm_detected:
+                self.palm_detected = True
+                self.get_logger().info("Palm detected! Starting to wave.")
+            
+            # Update last detection time
+            self.last_palm_detection_time = current_time
+    
+    def heartbeat_callback(self):
+        """Main control loop - manages palm detection timeouts and waving"""
+        current_time = time.time()
+        
+        # Check if palm detection has timed out
+        if self.palm_detected and (current_time - self.last_palm_detection_time > self.palm_timeout):
+            self.palm_detected = False
+            self.get_logger().info("Palm detection timeout. Stopping wave.")
+            # Return to initial pose when detection is lost
+            if self.wave_state != "initial":
+                self.move_to_pose(self.initial_pose)
+                self.wave_state = "initial"
+        
+        # If palm is detected and it's time for next wave motion
+        if self.palm_detected and (current_time - self.last_wave_time > self.wave_interval):
+            if self.wave_state == "initial":
+                self.get_logger().info("Waving! Current state: initial -> goal")
+                self.move_to_pose(self.goal_pose)
+                self.wave_state = "goal"
+            else:
+                self.get_logger().info("Waving! Current state: goal -> initial")
+                self.move_to_pose(self.initial_pose)
+                self.wave_state = "initial"
+                
+            self.last_wave_time = current_time
+
     def wait_for_joint_states(self, timeout=5.0):
+        """Wait until we have received joint states for all joints"""
         start = time.time()
         while not self.has_all_joint_positions():
             if time.time() - start > timeout:
@@ -79,27 +127,35 @@ class UR5MotionNode(Node):
             rclpy.spin_once(self, timeout_sec=0.1)
 
     def has_all_joint_positions(self):
+        """Check if we have received positions for all joints"""
         return all(name in self.current_joint_positions for name in self.joint_names)
 
-    def move_to_pose(self, target_positions, threshold=math.radians(1)):
-        self.send_trajectory(target_positions)
-        self.wait_until_reached(target_positions, threshold)
-
-    def send_trajectory(self, joint_positions):
+    def move_to_pose(self, target_positions):
+        """Send a trajectory to move the robot to the specified joint positions"""
+        # Check if we're already at the target pose
+        current_positions = [
+            self.current_joint_positions.get(name, 0.0) for name in self.joint_names
+        ]
+        
+        # Calculate max deviation from target positions
+        deviations = [abs(c - t) for c, t in zip(current_positions, target_positions)]
+        max_deviation = max(deviations) if deviations else 0
+        
+        # If we're already close to the target pose, don't send redundant commands
+        if max_deviation < math.radians(5):  # Within 5 degrees
+            self.get_logger().info("Already at target pose, skipping movement")
+            return
+            
+        # Create and send trajectory message
         traj_msg = JointTrajectory()
         traj_msg.joint_names = self.joint_names
 
         point = JointTrajectoryPoint()
-        point.positions = joint_positions
-        point.velocities = [0.0] * len(joint_positions)
+        point.positions = target_positions
+        point.velocities = [0.0] * len(target_positions)
 
-        # Current joint positions
-        current_positions = [
-            self.current_joint_positions.get(name, 0.0) for name in self.joint_names
-        ]
-
-        max_delta = max(abs(curr - goal) for curr, goal in zip(current_positions, joint_positions))
-        max_joint_speed = math.radians(30)  # conservative 30 deg/s
+        max_delta = max(abs(curr - goal) for curr, goal in zip(current_positions, target_positions))
+        max_joint_speed = math.radians(30)  # 30 deg/s
         duration_sec = max(1.0, max_delta / max_joint_speed)
 
         point.time_from_start = Duration(
@@ -112,25 +168,11 @@ class UR5MotionNode(Node):
 
         self.get_logger().info(f"Sent trajectory with duration {duration_sec:.2f}s")
 
-    def wait_until_reached(self, goal_positions, threshold, timeout=10.0):
-        start_time = time.time()
-        while time.time() - start_time < timeout:
-            rclpy.spin_once(self, timeout_sec=0.1)
-            current_positions = [
-                self.current_joint_positions.get(name, 0.0) for name in self.joint_names
-            ]
-            max_error = max(abs(c - g) for c, g in zip(current_positions, goal_positions))
-            if max_error < threshold:
-                self.get_logger().info("Reached goal.")
-                return
-        self.get_logger().warn("Timeout while waiting for robot to reach goal.")
-
 
 def main(args=None):
     rclpy.init(args=args)
-    time.sleep(10) # for testing
     node = UR5MotionNode()
-    rclpy.spin_once(node, timeout_sec=0)
+    rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
 

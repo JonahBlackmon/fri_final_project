@@ -1,1 +1,5 @@
-/home/bwilab/fri_ws/src/v5_arm/robotiq_description/urdf/robotiq_arg2f_140_model.xacro
+<?xml version="1.0"?>
+<robot name="robotiq_arg2f_140_model" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find robotiq_description)/urdf/robotiq_arg2f_140_model_macro.xacro" />
+  <xacro:robotiq_arg2f_140 prefix="" parent=""/>
+</robot>

@@ -1,1 +1,10 @@
-/home/bwilab/fri_ws/src/v5_arm/v5_moveit_config/config/initial_positions.yaml
+# Default initial positions for v5_with_arm's ros2_control fake system
+
+initial_positions:
+  finger_joint: 0
+  ur5_elbow_joint: 0
+  ur5_shoulder_lift_joint: 0
+  ur5_shoulder_pan_joint: 0
+  ur5_wrist_1_joint: 0
+  ur5_wrist_2_joint: 0
+  ur5_wrist_3_joint: 0

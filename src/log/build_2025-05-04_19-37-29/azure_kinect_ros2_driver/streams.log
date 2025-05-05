@@ -1,0 +1,143 @@
+[0.021s] Invoking command in '/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/src/install/azure_kinect_ros2_driver
+[0.281s] -- The C compiler identification is GNU 12.1.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.281s] -- Check for working C compiler: /home/bwilab/miniconda3/bin/cc - skipped
+[0.282s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.506s] -- Found Python3: /home/bwilab/miniconda3/bin/python3 (found version "3.12.2") found components: Interpreter 
+[0.615s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.636s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.642s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.653s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.666s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.682s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.729s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.732s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.819s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.854s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.901s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.964s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.964s] -- Looking for pthread_create in pthreads
+[1.005s] -- Looking for pthread_create in pthreads - not found
+[1.006s] -- Looking for pthread_create in pthread
+[1.056s] -- Looking for pthread_create in pthread - found
+[1.057s] -- Found Threads: TRUE  
+[1.113s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.147s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[1.186s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.284s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.303s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.303s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.303s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.306s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.309s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.329s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.329s] [0mk4a found[0m
+[1.412s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.494s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.494s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/include>
+[1.494s] -- Configured cppcheck exclude dirs and/or files: 
+[1.495s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.496s] -- Added test 'lint_cmake' to check CMake code style
+[1.497s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.501s] -- Added test 'uncrustify' to check C / C++ code style
+[1.501s] -- Configured uncrustify additional arguments: 
+[1.501s] -- Added test 'xmllint' to check XML markup files
+[1.502s] -- Configuring done (1.5s)
+[1.516s] -- Generating done (0.0s)
+[1.518s] -- Build files have been written to: /home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver
+[1.530s] Invoked command in '/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/src/install/azure_kinect_ros2_driver
+[1.532s] Invoking command in '/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver -- -j16 -l16
+[1.570s] [ 20%] [32mBuilding CXX object CMakeFiles/azure_kinect_node.dir/src/k4a_ros_node.cpp.o[0m
+[1.570s] [ 40%] [32mBuilding CXX object CMakeFiles/azure_kinect_node.dir/src/k4a_ros_device.cpp.o[0m
+[1.570s] [ 60%] [32mBuilding CXX object CMakeFiles/azure_kinect_node.dir/src/k4a_ros_device_params.cpp.o[0m
+[1.570s] [ 80%] [32mBuilding CXX object CMakeFiles/azure_kinect_node.dir/src/k4a_calibration_transform_data.cpp.o[0m
+[1.572s] [ 80%] Built target ament_cmake_python_copy_azure_kinect_ros2_driver
+[1.747s] running egg_info
+[1.748s] creating azure_kinect_ros2_driver.egg-info
+[1.768s] writing azure_kinect_ros2_driver.egg-info/PKG-INFO
+[1.768s] writing dependency_links to azure_kinect_ros2_driver.egg-info/dependency_links.txt
+[1.768s] writing top-level names to azure_kinect_ros2_driver.egg-info/top_level.txt
+[1.768s] writing manifest file 'azure_kinect_ros2_driver.egg-info/SOURCES.txt'
+[1.847s] reading manifest file 'azure_kinect_ros2_driver.egg-info/SOURCES.txt'
+[1.847s] writing manifest file 'azure_kinect_ros2_driver.egg-info/SOURCES.txt'
+[1.851s] In file included from [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_calibration_transform_data.cpp:18[m[K:
+[1.851s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.851s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.851s]       |  [01;35m[K^~~~~~~[m[K
+[1.885s] [ 80%] Built target ament_cmake_python_build_azure_kinect_ros2_driver_egg
+[4.639s] In file included from [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:6[m[K:
+[4.639s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:[m[K In constructor ‘[01m[KK4AROS2Device::K4AROS2Device()[m[K’:
+[4.639s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:153:25:[m[K [01;35m[Kwarning: [m[K‘[01m[KK4AROS2Device::last_capture_time_usec_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.639s]   153 |     std::atomic_int64_t [01;35m[Klast_capture_time_usec_[m[K;
+[4.639s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.639s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:110:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krclcpp::QoS K4AROS2Device::qos_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.639s]   110 |     rclcpp::QoS [01;35m[Kqos_[m[K;
+[4.640s]       |                 [01;35m[K^~~~[m[K
+[4.640s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:35:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.640s]    35 | [01;35m[KK4AROS2Device[m[K::K4AROS2Device()
+[4.641s]       | [01;35m[K^~~~~~~~~~~~~[m[K
+[4.641s] In file included from [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:6[m[K:
+[4.641s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:156:26:[m[K [01;35m[Kwarning: [m[K‘[01m[KK4AROS2Device::last_imu_time_usec_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.641s]   156 |     std::atomic_uint64_t [01;35m[Klast_imu_time_usec_[m[K;
+[4.641s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.642s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/include/azure_kinect_ros2_driver/k4a_ros_device.h:135:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool K4AROS2Device::process_cloud_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.642s]   135 |     bool [01;35m[Kprocess_cloud_[m[K;
+[4.642s]       |          [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.642s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:35:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.642s]    35 | [01;35m[KK4AROS2Device[m[K::K4AROS2Device()
+[4.642s]       | [01;35m[K^~~~~~~~~~~~~[m[K
+[4.659s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:205:14:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[4.659s]   205 |       catch ([01;35m[Kexception[m[K)
+[4.659s]       |              [01;35m[K^~~~~~~~~[m[K
+[4.743s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:[m[K In member function ‘[01m[Kvoid K4AROS2Device::framePublisherThread()[m[K’:
+[4.744s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:776:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwait_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.744s]   776 |   k4a_wait_result_t [01;35m[Kwait_result[m[K;
+[4.744s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[4.753s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:[m[K In member function ‘[01m[Kvoid K4AROS2Device::imuPublisherThread()[m[K’:
+[4.753s] [01m[K/home/bwilab/fri_ws/src/Azure_Kinect_ROS2_Driver/src/k4a_ros_device.cpp:1218:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::__atomic_base<long unsigned int>::__int_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kstd::__atomic_base<long int>::__int_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.754s]  1218 |       while ([01;35m[Klast_imu_time_usec_ <= last_capture_time_usec_[m[K && !imu_stream_end_of_file_)
+[4.754s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.645s] [100%] [32m[1mLinking CXX executable azure_kinect_node[0m
+[9.249s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'
+[9.250s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'
+[9.250s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'
+[9.251s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'
+[9.251s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'
+[9.252s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'
+[9.252s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'
+[9.254s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'
+[9.255s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'
+[9.257s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'
+[9.258s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'
+[9.259s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'
+[9.260s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'
+[9.262s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'
+[9.262s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'
+[9.263s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'
+[9.264s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'
+[9.265s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'
+[9.266s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'
+[9.267s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'
+[9.268s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'
+[9.269s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'
+[9.270s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'
+[9.270s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'
+[9.271s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'
+[9.272s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'
+[9.273s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'
+[9.273s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'
+[9.292s] collect2: error: ld returned 1 exit status
+[9.293s] gmake[2]: *** [CMakeFiles/azure_kinect_node.dir/build.make:260: azure_kinect_node] Error 1
+[9.293s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/azure_kinect_node.dir/all] Error 2
+[9.293s] gmake: *** [Makefile:146: all] Error 2
+[9.299s] Invoked command in '/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver -- -j16 -l16

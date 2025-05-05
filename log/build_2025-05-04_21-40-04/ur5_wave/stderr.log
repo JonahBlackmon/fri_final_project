@@ -1,0 +1,5 @@
+  File "/home/bwilab/fri_ws/install/ur5_wave/lib/python3.10/site-packages/ur5_wave/wave.py", line 133
+    point.time_from_start = Duration(sec=int(duration), nanosec=int((duration % 1) * 1e9)
+                                    ^
+SyntaxError: '(' was never closed
+

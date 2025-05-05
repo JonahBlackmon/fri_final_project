@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-yeW2C3"
-      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-yeW2C3"
+      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Hdi1JP"
+      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Hdi1JP"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,12 +70,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-yeW2C3
+        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Hdi1JP
         
-        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c6052/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6052.dir/build.make CMakeFiles/cmTC_c6052.dir/build
-        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-yeW2C3'
-        Building C object CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o
-        /home/bwilab/miniconda3/bin/cc   -v -o CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o -c /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_317e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_317e9.dir/build.make CMakeFiles/cmTC_317e9.dir/build
+        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Hdi1JP'
+        Building C object CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o
+        /home/bwilab/miniconda3/bin/cc   -v -o CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o -c /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
         Reading specs from /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/bwilab/miniconda3/bin/cc
@@ -84,8 +84,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 12.1.0 (conda-forge gcc 12.1.0-17) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c6052.dir/'
-         /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/ -isysroot /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c6052.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cccEIzBg.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_317e9.dir/'
+         /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/ -isysroot /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_317e9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccgN5hKS.s
         GNU C17 (conda-forge gcc 12.1.0-17) version 12.1.0 (x86_64-conda-linux-gnu)
         	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -106,15 +106,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 948d14387da5abafaa455e4d3c66cea6
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c6052.dir/'
-         /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o /tmp/cccEIzBg.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_317e9.dir/'
+         /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o /tmp/ccgN5hKS.s
         GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38
         COMPILER_PATH=/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/bwilab/miniconda3/bin/../libexec/gcc/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/bwilab/miniconda3/bin/../lib/gcc/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_c6052
-        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6052.dir/link.txt --verbose=1
-        /home/bwilab/miniconda3/bin/cc  -v CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o -o cmTC_c6052 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_317e9
+        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_317e9.dir/link.txt --verbose=1
+        /home/bwilab/miniconda3/bin/cc  -v CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o -o cmTC_317e9 
         Reading specs from /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/bwilab/miniconda3/bin/cc
@@ -126,10 +126,10 @@ events:
         gcc version 12.1.0 (conda-forge gcc 12.1.0-17) 
         COMPILER_PATH=/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/bwilab/miniconda3/bin/../libexec/gcc/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/bwilab/miniconda3/bin/../lib/gcc/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c6052' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c6052.'
-         /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/collect2 -plugin /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3nVMBc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c6052 /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0 -L/home/bwilab/miniconda3/bin/../lib/gcc -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../.. -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/bwilab/miniconda3/lib
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c6052' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c6052.'
-        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-yeW2C3'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_317e9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_317e9.'
+         /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/collect2 -plugin /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7xeZa1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_317e9 /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0 -L/home/bwilab/miniconda3/bin/../lib/gcc -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../.. -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/bwilab/miniconda3/lib
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_317e9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_317e9.'
+        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Hdi1JP'
         
       exitCode: 0
   -
@@ -161,12 +161,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-yeW2C3]
+        ignore line: [Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Hdi1JP]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c6052/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6052.dir/build.make CMakeFiles/cmTC_c6052.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-yeW2C3']
-        ignore line: [Building C object CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/home/bwilab/miniconda3/bin/cc   -v -o CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o -c /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_317e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_317e9.dir/build.make CMakeFiles/cmTC_317e9.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Hdi1JP']
+        ignore line: [Building C object CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/bwilab/miniconda3/bin/cc   -v -o CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o -c /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
         ignore line: [Reading specs from /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/bwilab/miniconda3/bin/cc]
@@ -175,8 +175,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.1.0 (conda-forge gcc 12.1.0-17) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c6052.dir/']
-        ignore line: [ /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/ -isysroot /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c6052.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cccEIzBg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_317e9.dir/']
+        ignore line: [ /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/ -isysroot /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_317e9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccgN5hKS.s]
         ignore line: [GNU C17 (conda-forge gcc 12.1.0-17) version 12.1.0 (x86_64-conda-linux-gnu)]
         ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -197,15 +197,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 948d14387da5abafaa455e4d3c66cea6]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c6052.dir/']
-        ignore line: [ /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o /tmp/cccEIzBg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_317e9.dir/']
+        ignore line: [ /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o /tmp/ccgN5hKS.s]
         ignore line: [GNU assembler version 2.38 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.38]
         ignore line: [COMPILER_PATH=/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/bwilab/miniconda3/bin/../libexec/gcc/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/bwilab/miniconda3/bin/../lib/gcc/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_c6052]
-        ignore line: [/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6052.dir/link.txt --verbose=1]
-        ignore line: [/home/bwilab/miniconda3/bin/cc  -v CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o -o cmTC_c6052 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_317e9]
+        ignore line: [/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_317e9.dir/link.txt --verbose=1]
+        ignore line: [/home/bwilab/miniconda3/bin/cc  -v CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o -o cmTC_317e9 ]
         ignore line: [Reading specs from /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/bwilab/miniconda3/bin/cc]
@@ -217,13 +217,13 @@ events:
         ignore line: [gcc version 12.1.0 (conda-forge gcc 12.1.0-17) ]
         ignore line: [COMPILER_PATH=/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/bwilab/miniconda3/bin/../libexec/gcc/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/:/home/bwilab/miniconda3/bin/../lib/gcc/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/:/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c6052' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c6052.']
-        link line: [ /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/collect2 -plugin /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3nVMBc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c6052 /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0 -L/home/bwilab/miniconda3/bin/../lib/gcc -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../.. -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/bwilab/miniconda3/lib]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_317e9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_317e9.']
+        link line: [ /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/collect2 -plugin /home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7xeZa1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_317e9 /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0 -L/home/bwilab/miniconda3/bin/../lib/gcc -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/lib -L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../.. -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtendS.o /home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/bwilab/miniconda3/lib]
           arg [/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/home/bwilab/miniconda3/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.1.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc3nVMBc.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc7xeZa1.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -237,7 +237,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c6052] ==> ignore
+          arg [cmTC_317e9] ==> ignore
           arg [/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
           arg [/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
           arg [/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o] ==> obj [/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/crtbeginS.o]
@@ -251,7 +251,7 @@ events:
           arg [-L/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../..] ==> dir [/home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../..]
           arg [-L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/lib]
           arg [-L/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/bwilab/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
-          arg [CMakeFiles/cmTC_c6052.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_317e9.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -297,8 +297,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Qnbg66"
-      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Qnbg66"
+      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-5eMpgd"
+      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-5eMpgd"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -306,12 +306,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Qnbg66
+        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-5eMpgd
         
-        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e9525/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9525.dir/build.make CMakeFiles/cmTC_e9525.dir/build
-        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Qnbg66'
-        Building CXX object CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o -c /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_314fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_314fd.dir/build.make CMakeFiles/cmTC_314fd.dir/build
+        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-5eMpgd'
+        Building CXX object CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o -c /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -321,8 +321,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e9525.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e9525.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpMCPST.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_314fd.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_314fd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc43nYpb.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -346,15 +346,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e9525.dir/'
-         as -v --64 -o CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpMCPST.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_314fd.dir/'
+         as -v --64 -o CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc43nYpb.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_e9525
-        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9525.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e9525 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_314fd
+        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_314fd.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_314fd 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -367,10 +367,10 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9525' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e9525.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cca1mGDm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e9525 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9525' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e9525.'
-        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Qnbg66'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_314fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_314fd.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWNAlUG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_314fd /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_314fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_314fd.'
+        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-5eMpgd'
         
       exitCode: 0
   -
@@ -410,12 +410,12 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Qnbg66]
+        ignore line: [Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-5eMpgd]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e9525/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9525.dir/build.make CMakeFiles/cmTC_e9525.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Qnbg66']
-        ignore line: [Building CXX object CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o -c /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_314fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_314fd.dir/build.make CMakeFiles/cmTC_314fd.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-5eMpgd']
+        ignore line: [Building CXX object CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o -c /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -425,8 +425,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e9525.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e9525.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpMCPST.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_314fd.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_314fd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc43nYpb.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -450,15 +450,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e9525.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpMCPST.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_314fd.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc43nYpb.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_e9525]
-        ignore line: [/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9525.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e9525 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_314fd]
+        ignore line: [/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_314fd.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_314fd ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -471,13 +471,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9525' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e9525.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cca1mGDm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e9525 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_314fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_314fd.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWNAlUG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_314fd /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cca1mGDm.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccWNAlUG.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -495,7 +495,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e9525] ==> ignore
+          arg [cmTC_314fd] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -507,7 +507,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_e9525.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_314fd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -562,8 +562,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-y96kBY"
-      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-y96kBY"
+      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-4ME5cj"
+      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-4ME5cj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -572,25 +572,25 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-y96kBY
+        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-4ME5cj
         
-        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5b325/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b325.dir/build.make CMakeFiles/cmTC_5b325.dir/build
-        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-y96kBY'
-        Building C object CMakeFiles/cmTC_5b325.dir/src.c.o
-        /home/bwilab/miniconda3/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5b325.dir/src.c.o -c /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-y96kBY/src.c
-        Linking C executable cmTC_5b325
-        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b325.dir/link.txt --verbose=1
-        /home/bwilab/miniconda3/bin/cc CMakeFiles/cmTC_5b325.dir/src.c.o -o cmTC_5b325 
-        /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_5b325.dir/src.c.o: in function `main':
+        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7c2bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c2bc.dir/build.make CMakeFiles/cmTC_7c2bc.dir/build
+        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-4ME5cj'
+        Building C object CMakeFiles/cmTC_7c2bc.dir/src.c.o
+        /home/bwilab/miniconda3/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7c2bc.dir/src.c.o -c /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-4ME5cj/src.c
+        Linking C executable cmTC_7c2bc
+        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c2bc.dir/link.txt --verbose=1
+        /home/bwilab/miniconda3/bin/cc CMakeFiles/cmTC_7c2bc.dir/src.c.o -o cmTC_7c2bc 
+        /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_7c2bc.dir/src.c.o: in function `main':
         src.c:(.text+0x2f): undefined reference to `pthread_create'
         /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
         /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
         /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
         /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x6c): undefined reference to `pthread_atfork'
         collect2: error: ld returned 1 exit status
-        gmake[1]: *** [CMakeFiles/cmTC_5b325.dir/build.make:99: cmTC_5b325] Error 1
-        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-y96kBY'
-        gmake: *** [Makefile:127: cmTC_5b325/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_7c2bc.dir/build.make:99: cmTC_7c2bc] Error 1
+        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-4ME5cj'
+        gmake: *** [Makefile:127: cmTC_7c2bc/fast] Error 2
         
       exitCode: 2
   -
@@ -620,8 +620,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-A25Xn4"
-      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-A25Xn4"
+      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Fd5YFw"
+      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Fd5YFw"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -630,20 +630,20 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-A25Xn4
+        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Fd5YFw
         
-        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_be6e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be6e2.dir/build.make CMakeFiles/cmTC_be6e2.dir/build
-        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-A25Xn4'
-        Building C object CMakeFiles/cmTC_be6e2.dir/CheckFunctionExists.c.o
-        /home/bwilab/miniconda3/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_be6e2.dir/CheckFunctionExists.c.o -c /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-A25Xn4/CheckFunctionExists.c
-        Linking C executable cmTC_be6e2
-        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be6e2.dir/link.txt --verbose=1
-        /home/bwilab/miniconda3/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_be6e2.dir/CheckFunctionExists.c.o -o cmTC_be6e2  -lpthreads 
+        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_774e6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_774e6.dir/build.make CMakeFiles/cmTC_774e6.dir/build
+        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Fd5YFw'
+        Building C object CMakeFiles/cmTC_774e6.dir/CheckFunctionExists.c.o
+        /home/bwilab/miniconda3/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_774e6.dir/CheckFunctionExists.c.o -c /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Fd5YFw/CheckFunctionExists.c
+        Linking C executable cmTC_774e6
+        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_774e6.dir/link.txt --verbose=1
+        /home/bwilab/miniconda3/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_774e6.dir/CheckFunctionExists.c.o -o cmTC_774e6  -lpthreads 
         /home/bwilab/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
         collect2: error: ld returned 1 exit status
-        gmake[1]: *** [CMakeFiles/cmTC_be6e2.dir/build.make:99: cmTC_be6e2] Error 1
-        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-A25Xn4'
-        gmake: *** [Makefile:127: cmTC_be6e2/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_774e6.dir/build.make:99: cmTC_774e6] Error 1
+        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-Fd5YFw'
+        gmake: *** [Makefile:127: cmTC_774e6/fast] Error 2
         
       exitCode: 2
   -
@@ -673,8 +673,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-zmtnic"
-      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-zmtnic"
+      source: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-NsNNsX"
+      binary: "/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-NsNNsX"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -683,16 +683,16 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-zmtnic
+        Change Dir: /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-NsNNsX
         
-        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a640/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a640.dir/build.make CMakeFiles/cmTC_6a640.dir/build
-        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-zmtnic'
-        Building C object CMakeFiles/cmTC_6a640.dir/CheckFunctionExists.c.o
-        /home/bwilab/miniconda3/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_6a640.dir/CheckFunctionExists.c.o -c /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-zmtnic/CheckFunctionExists.c
-        Linking C executable cmTC_6a640
-        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a640.dir/link.txt --verbose=1
-        /home/bwilab/miniconda3/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_6a640.dir/CheckFunctionExists.c.o -o cmTC_6a640  -lpthread 
-        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-zmtnic'
+        Run Build Command(s):/home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_308db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_308db.dir/build.make CMakeFiles/cmTC_308db.dir/build
+        gmake[1]: Entering directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-NsNNsX'
+        Building C object CMakeFiles/cmTC_308db.dir/CheckFunctionExists.c.o
+        /home/bwilab/miniconda3/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_308db.dir/CheckFunctionExists.c.o -c /home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-NsNNsX/CheckFunctionExists.c
+        Linking C executable cmTC_308db
+        /home/bwilab/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_308db.dir/link.txt --verbose=1
+        /home/bwilab/miniconda3/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_308db.dir/CheckFunctionExists.c.o -o cmTC_308db  -lpthread 
+        gmake[1]: Leaving directory '/home/bwilab/fri_ws/build/ur_robot_driver/CMakeFiles/CMakeScratch/TryCompile-NsNNsX'
         
       exitCode: 0
 ...

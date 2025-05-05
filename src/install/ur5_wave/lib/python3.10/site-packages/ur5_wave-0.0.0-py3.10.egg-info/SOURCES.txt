@@ -13,3 +13,4 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 ur5_wave/__init__.py
+ur5_wave/wave.py

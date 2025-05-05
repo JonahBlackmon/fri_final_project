@@ -1,1 +1,4 @@
-/home/bwilab/fri_ws/build/ur_robot_driver/ament_cmake_environment_hooks/local_setup.dsv
+source;share/ur_robot_driver/environment/ament_prefix_path.sh
+source;share/ur_robot_driver/environment/library_path.sh
+source;share/ur_robot_driver/environment/path.sh
+source;share/ur_robot_driver/environment/pythonpath.sh

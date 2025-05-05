@@ -1,1 +1,8 @@
-/home/bwilab/fri_ws/build/v5_description/ament_cmake_environment_hooks/package.dsv
+source;share/v5_description/hook/cmake_prefix_path.ps1
+source;share/v5_description/hook/cmake_prefix_path.dsv
+source;share/v5_description/hook/cmake_prefix_path.sh
+source;share/v5_description/local_setup.bash
+source;share/v5_description/local_setup.dsv
+source;share/v5_description/local_setup.ps1
+source;share/v5_description/local_setup.sh
+source;share/v5_description/local_setup.zsh

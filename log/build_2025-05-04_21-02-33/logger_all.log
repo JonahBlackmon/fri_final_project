@@ -1,0 +1,658 @@
+[0.093s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.093s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d6e9fb56d40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d6e9fc434c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d6e9fc434c0>>, mixin_verb=('build',))[0m
+[0.287s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/bwilab/fri_ws'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extension 'ignore'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) ignored
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extension 'ignore'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) ignored
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extension 'ignore'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) ignored
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/recognition_node) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/recognition_node) by extension 'ignore'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/recognition_node) by extension 'ignore_ament_install'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/recognition_node) by extensions ['colcon_pkg']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/recognition_node) by extension 'colcon_pkg'
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/recognition_node) by extensions ['colcon_meta']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/recognition_node) by extension 'colcon_meta'
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/recognition_node) by extensions ['ros']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/recognition_node) by extension 'ros'
+[0.305s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/recognition_node' with type 'ros.ament_python' and name 'recognition_node'[0m
+[0.305s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ur5_wave) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ur5_wave) by extension 'ignore'
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ur5_wave) by extension 'ignore_ament_install'
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ur5_wave) by extensions ['colcon_pkg']
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ur5_wave) by extension 'colcon_pkg'
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ur5_wave) by extensions ['colcon_meta']
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ur5_wave) by extension 'colcon_meta'
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ur5_wave) by extensions ['ros']
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ur5_wave) by extension 'ros'
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ur5_wave' with type 'ros.ament_python' and name 'ur5_wave'[0m
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extension 'ignore'
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extension 'ignore_ament_install'
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extensions ['colcon_pkg']
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extension 'colcon_pkg'
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extensions ['colcon_meta']
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extension 'colcon_meta'
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extensions ['ros']
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extension 'ros'
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extensions ['cmake', 'python']
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extension 'cmake'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extension 'python'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extensions ['python_setup_py']
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm) by extension 'python_setup_py'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/arm_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/arm_launch) by extension 'ignore'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/arm_launch) by extension 'ignore_ament_install'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/arm_launch) by extensions ['colcon_pkg']
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/arm_launch) by extension 'colcon_pkg'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/arm_launch) by extensions ['colcon_meta']
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/arm_launch) by extension 'colcon_meta'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/arm_launch) by extensions ['ros']
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/arm_launch) by extension 'ros'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/v5_arm/arm_launch' with type 'ros.ament_cmake' and name 'arm_launch'[0m
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_description) by extension 'ignore'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_description) by extension 'ignore_ament_install'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_description) by extensions ['colcon_pkg']
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_description) by extension 'colcon_pkg'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_description) by extensions ['colcon_meta']
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_description) by extension 'colcon_meta'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_description) by extensions ['ros']
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_description) by extension 'ros'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/v5_arm/robotiq_description' with type 'ros.ament_cmake' and name 'robotiq_description'[0m
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_gripper_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_gripper_driver) by extension 'ignore'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_gripper_driver) by extension 'ignore_ament_install'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_gripper_driver) by extensions ['colcon_pkg']
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_gripper_driver) by extension 'colcon_pkg'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_gripper_driver) by extensions ['colcon_meta']
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_gripper_driver) by extension 'colcon_meta'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_gripper_driver) by extensions ['ros']
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/robotiq_gripper_driver) by extension 'ros'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/v5_arm/robotiq_gripper_driver' with type 'ros.ament_python' and name 'robotiq_gripper_driver'[0m
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_description) by extension 'ignore'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_description) by extension 'ignore_ament_install'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_description) by extensions ['colcon_pkg']
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_description) by extension 'colcon_pkg'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_description) by extensions ['colcon_meta']
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_description) by extension 'colcon_meta'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_description) by extensions ['ros']
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_description) by extension 'ros'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/v5_arm/ur_description' with type 'ros.ament_cmake' and name 'ur_description'[0m
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_robot_driver) by extension 'ignore'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_robot_driver) by extension 'ignore_ament_install'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_robot_driver) by extensions ['colcon_pkg']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_robot_driver) by extension 'colcon_pkg'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_robot_driver) by extensions ['colcon_meta']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_robot_driver) by extension 'colcon_meta'
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_robot_driver) by extensions ['ros']
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/ur_robot_driver) by extension 'ros'
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/v5_arm/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'[0m
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/v5_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/v5_moveit_config) by extension 'ignore'
+[0.314s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/v5_moveit_config) by extension 'ignore_ament_install'
+[0.314s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/v5_moveit_config) by extensions ['colcon_pkg']
+[0.314s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/v5_moveit_config) by extension 'colcon_pkg'
+[0.314s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/v5_moveit_config) by extensions ['colcon_meta']
+[0.314s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/v5_moveit_config) by extension 'colcon_meta'
+[0.314s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/v5_moveit_config) by extensions ['ros']
+[0.314s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_arm/v5_moveit_config) by extension 'ros'
+[0.315s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/v5_arm/v5_moveit_config' with type 'ros.ament_cmake' and name 'v5_moveit_config'[0m
+[0.315s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_description) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_description) by extension 'ignore'
+[0.315s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_description) by extension 'ignore_ament_install'
+[0.315s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_description) by extensions ['colcon_pkg']
+[0.315s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_description) by extension 'colcon_pkg'
+[0.315s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_description) by extensions ['colcon_meta']
+[0.316s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_description) by extension 'colcon_meta'
+[0.316s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_description) by extensions ['ros']
+[0.316s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/v5_description) by extension 'ros'
+[0.316s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/v5_description' with type 'ros.ament_cmake' and name 'v5_description'[0m
+[0.316s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.316s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.316s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.316s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.316s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.332s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.332s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.334s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 9 installed packages in /home/bwilab/fri_ws/install[0m
+[0.335s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 471 installed packages in /opt/ros/humble[0m
+[0.337s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.376s] [34mcolcon.colcon_core.package_selection[0m [1;30mWARNING[0m [33mSome selected packages are already built in one or more underlay workspaces:
+	'ur_robot_driver' is in: /home/bwilab/fri_ws/install/ur_robot_driver, /opt/ros/humble
+	'ur_description' is in: /home/bwilab/fri_ws/install/ur_description, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ur_description ur_robot_driver
+
+This may be promoted to an error in a future release of colcon-override-check.[0m
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_launch' build argument 'cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_launch' build argument 'cmake_target' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arm_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'arm_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/fri_ws/build/arm_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/fri_ws/install/arm_launch', 'merge_install': False, 'path': '/home/bwilab/fri_ws/src/v5_arm/arm_launch', 'symlink_install': False, 'test_result_base': None}[0m
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'recognition_node' build argument 'cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'recognition_node' build argument 'cmake_target' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'recognition_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'recognition_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'recognition_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'recognition_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'recognition_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'recognition_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'recognition_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'recognition_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/fri_ws/build/recognition_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/fri_ws/install/recognition_node', 'merge_install': False, 'path': '/home/bwilab/fri_ws/src/recognition_node', 'symlink_install': False, 'test_result_base': None}[0m
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_description' build argument 'cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_description' build argument 'cmake_target' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robotiq_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/fri_ws/build/robotiq_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/fri_ws/install/robotiq_description', 'merge_install': False, 'path': '/home/bwilab/fri_ws/src/v5_arm/robotiq_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_gripper_driver' build argument 'cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_gripper_driver' build argument 'cmake_target' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_gripper_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_gripper_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_gripper_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_gripper_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_gripper_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_gripper_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robotiq_gripper_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robotiq_gripper_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/fri_ws/build/robotiq_gripper_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/fri_ws/install/robotiq_gripper_driver', 'merge_install': False, 'path': '/home/bwilab/fri_ws/src/v5_arm/robotiq_gripper_driver', 'symlink_install': False, 'test_result_base': None}[0m
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur5_wave' build argument 'cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur5_wave' build argument 'cmake_target' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur5_wave' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur5_wave' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur5_wave' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur5_wave' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur5_wave' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur5_wave' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur5_wave' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur5_wave' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/fri_ws/build/ur5_wave', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/fri_ws/install/ur5_wave', 'merge_install': False, 'path': '/home/bwilab/fri_ws/src/ur5_wave', 'symlink_install': False, 'test_result_base': None}[0m
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/fri_ws/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/fri_ws/install/ur_description', 'merge_install': False, 'path': '/home/bwilab/fri_ws/src/v5_arm/ur_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_description' build argument 'cmake_args' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_description' build argument 'cmake_target' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'v5_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/fri_ws/build/v5_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/fri_ws/install/v5_description', 'merge_install': False, 'path': '/home/bwilab/fri_ws/src/v5_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/fri_ws/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/fri_ws/install/ur_robot_driver', 'merge_install': False, 'path': '/home/bwilab/fri_ws/src/v5_arm/ur_robot_driver', 'symlink_install': False, 'test_result_base': None}[0m
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'v5_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'v5_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/fri_ws/build/v5_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/fri_ws/install/v5_moveit_config', 'merge_install': False, 'path': '/home/bwilab/fri_ws/src/v5_arm/v5_moveit_config', 'symlink_install': False, 'test_result_base': None}[0m
+[0.380s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.381s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.382s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/fri_ws/src/v5_arm/ur_description' with build type 'ament_cmake'
+[0.382s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/fri_ws/src/v5_arm/ur_description'
+[0.383s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.383s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.387s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/fri_ws/src/v5_description' with build type 'ament_cmake'
+[0.387s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/fri_ws/src/v5_description'
+[0.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.391s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/fri_ws/src/v5_arm/arm_launch' with build type 'ament_cmake'
+[0.391s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/fri_ws/src/v5_arm/arm_launch'
+[0.391s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.391s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.395s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/fri_ws/src/recognition_node' with build type 'ament_python'
+[0.395s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('recognition_node', 'ament_prefix_path')
+[0.395s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/hook/ament_prefix_path.ps1'
+[0.395s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/hook/ament_prefix_path.dsv'
+[0.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/hook/ament_prefix_path.sh'
+[0.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.399s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/fri_ws/src/v5_arm/robotiq_description' with build type 'ament_cmake'
+[0.400s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/fri_ws/src/v5_arm/robotiq_description'
+[0.400s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.404s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/fri_ws/src/v5_arm/robotiq_gripper_driver' with build type 'ament_python'
+[0.404s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robotiq_gripper_driver', 'ament_prefix_path')
+[0.405s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/hook/ament_prefix_path.ps1'
+[0.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/hook/ament_prefix_path.dsv'
+[0.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/hook/ament_prefix_path.sh'
+[0.407s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.411s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/fri_ws/src/ur5_wave' with build type 'ament_python'
+[0.411s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur5_wave', 'ament_prefix_path')
+[0.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/hook/ament_prefix_path.ps1'
+[0.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/hook/ament_prefix_path.dsv'
+[0.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/hook/ament_prefix_path.sh'
+[0.414s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.423s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/ur_description -- -j16 -l16[0m
+[0.427s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/v5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/v5_description -- -j16 -l16[0m
+[0.430s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/arm_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/arm_launch -- -j16 -l16[0m
+[0.713s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/bwilab/fri_ws/src/recognition_node'
+[0.714s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.714s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.722s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/robotiq_description -- -j16 -l16[0m
+[0.988s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/bwilab/fri_ws/src/v5_arm/robotiq_gripper_driver'
+[0.989s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.989s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.268s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/bwilab/fri_ws/src/ur5_wave'
+[1.268s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.268s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.273s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/v5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/v5_description -- -j16 -l16[0m
+[1.274s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/robotiq_description -- -j16 -l16[0m
+[1.275s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/arm_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/arm_launch -- -j16 -l16[0m
+[1.275s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/ur_description -- -j16 -l16[0m
+[1.359s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/robotiq_description[0m
+[1.364s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/ur_description[0m
+[1.367s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/arm_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/arm_launch[0m
+[1.368s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/v5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/v5_description[0m
+[1.394s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robotiq_description)
+[1.406s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description' for CMake module files
+[1.409s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description' for CMake config files
+[1.410s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[1.410s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[1.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[1.414s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[1.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description/bin'
+[1.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[1.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description/lib/python3.10/site-packages'
+[1.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description/bin'
+[1.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.ps1'
+[1.421s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.dsv'
+[1.423s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.sh'
+[1.424s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.bash'
+[1.427s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.zsh'
+[1.429s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[1.432s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_launch)
+[1.432s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch' for CMake module files
+[1.433s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch' for CMake config files
+[1.434s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_launch', 'cmake_prefix_path')
+[1.435s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/hook/cmake_prefix_path.ps1'
+[1.436s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/hook/cmake_prefix_path.dsv'
+[1.438s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/hook/cmake_prefix_path.sh'
+[1.440s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch/bin'
+[1.440s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch/lib/pkgconfig/arm_launch.pc'
+[1.440s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch/lib/python3.10/site-packages'
+[1.440s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch/bin'
+[1.441s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.ps1'
+[1.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.dsv'
+[1.444s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.sh'
+[1.445s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.bash'
+[1.446s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.zsh'
+[1.447s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/robotiq_description[0m
+[1.447s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/arm_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/arm_launch[0m
+[1.448s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/arm_launch/share/colcon-core/packages/arm_launch)
+[1.448s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(v5_description)
+[1.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description' for CMake module files
+[1.449s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/v5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/v5_description[0m
+[1.450s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description' for CMake config files
+[1.450s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('v5_description', 'cmake_prefix_path')
+[1.450s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/v5_description/share/v5_description/hook/cmake_prefix_path.ps1'
+[1.450s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/v5_description/share/v5_description/hook/cmake_prefix_path.dsv'
+[1.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/v5_description/share/v5_description/hook/cmake_prefix_path.sh'
+[1.451s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description/bin'
+[1.451s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description/lib/pkgconfig/v5_description.pc'
+[1.451s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description/lib/python3.10/site-packages'
+[1.451s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description/bin'
+[1.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.ps1'
+[1.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.dsv'
+[1.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.sh'
+[1.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.bash'
+[1.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.zsh'
+[1.453s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/v5_description/share/colcon-core/packages/v5_description)
+[1.455s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ur_description)
+[1.455s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description' for CMake module files
+[1.456s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/ur_description[0m
+[1.456s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description' for CMake config files
+[1.457s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.457s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.457s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.458s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description/bin'
+[1.459s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.459s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description/lib/python3.10/site-packages'
+[1.459s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description/bin'
+[1.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.ps1'
+[1.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.dsv'
+[1.461s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.sh'
+[1.461s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.bash'
+[1.462s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.zsh'
+[1.462s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[1.477s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robotiq_description)
+[1.477s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description' for CMake module files
+[1.478s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description' for CMake config files
+[1.478s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[1.478s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[1.479s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[1.479s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[1.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description/bin'
+[1.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[1.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description/lib/python3.10/site-packages'
+[1.481s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_description/bin'
+[1.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.ps1'
+[1.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.dsv'
+[1.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.sh'
+[1.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.bash'
+[1.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_description/share/robotiq_description/package.zsh'
+[1.483s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[1.495s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arm_launch)
+[1.495s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch' for CMake module files
+[1.495s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch' for CMake config files
+[1.496s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arm_launch', 'cmake_prefix_path')
+[1.496s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/hook/cmake_prefix_path.ps1'
+[1.496s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/hook/cmake_prefix_path.dsv'
+[1.497s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/hook/cmake_prefix_path.sh'
+[1.497s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch/bin'
+[1.497s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch/lib/pkgconfig/arm_launch.pc'
+[1.497s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch/lib/python3.10/site-packages'
+[1.498s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/arm_launch/bin'
+[1.498s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.ps1'
+[1.498s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.dsv'
+[1.499s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.sh'
+[1.499s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.bash'
+[1.499s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/arm_launch/share/arm_launch/package.zsh'
+[1.500s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/arm_launch/share/colcon-core/packages/arm_launch)
+[1.505s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(v5_description)
+[1.505s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description' for CMake module files
+[1.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description' for CMake config files
+[1.506s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('v5_description', 'cmake_prefix_path')
+[1.506s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/v5_description/share/v5_description/hook/cmake_prefix_path.ps1'
+[1.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/v5_description/share/v5_description/hook/cmake_prefix_path.dsv'
+[1.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/v5_description/share/v5_description/hook/cmake_prefix_path.sh'
+[1.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description/bin'
+[1.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description/lib/pkgconfig/v5_description.pc'
+[1.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description/lib/python3.10/site-packages'
+[1.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_description/bin'
+[1.509s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.ps1'
+[1.509s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.dsv'
+[1.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.sh'
+[1.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.bash'
+[1.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_description/share/v5_description/package.zsh'
+[1.511s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/v5_description/share/colcon-core/packages/v5_description)
+[1.511s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/fri_ws/src/v5_arm/v5_moveit_config' with build type 'ament_cmake'
+[1.512s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/fri_ws/src/v5_arm/v5_moveit_config'
+[1.512s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.513s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.520s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ur_description)
+[1.521s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description' for CMake module files
+[1.522s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description' for CMake config files
+[1.522s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.523s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.523s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.524s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.525s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description/bin'
+[1.525s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.525s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description/lib/python3.10/site-packages'
+[1.525s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_description/bin'
+[1.526s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.ps1'
+[1.526s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.dsv'
+[1.526s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.sh'
+[1.527s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.bash'
+[1.527s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_description/share/ur_description/package.zsh'
+[1.527s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[1.528s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/fri_ws/src/v5_arm/ur_robot_driver' with build type 'ament_cmake'
+[1.528s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/fri_ws/src/v5_arm/ur_robot_driver'
+[1.528s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.528s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.538s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/v5_moveit_config': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/v5_moveit_config -- -j16 -l16[0m
+[1.541s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/ur_robot_driver -- -j16 -l16[0m
+[1.583s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/v5_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/v5_moveit_config -- -j16 -l16[0m
+[1.640s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/v5_moveit_config': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/v5_moveit_config[0m
+[1.672s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(v5_moveit_config)
+[1.672s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config' for CMake module files
+[1.673s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/v5_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/v5_moveit_config[0m
+[1.673s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config' for CMake config files
+[1.674s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('v5_moveit_config', 'cmake_prefix_path')
+[1.674s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/hook/cmake_prefix_path.ps1'
+[1.674s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/hook/cmake_prefix_path.dsv'
+[1.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/hook/cmake_prefix_path.sh'
+[1.675s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config/bin'
+[1.675s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config/lib/pkgconfig/v5_moveit_config.pc'
+[1.675s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config/lib/python3.10/site-packages'
+[1.676s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config/bin'
+[1.676s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.ps1'
+[1.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.dsv'
+[1.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.sh'
+[1.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.bash'
+[1.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.zsh'
+[1.678s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/v5_moveit_config/share/colcon-core/packages/v5_moveit_config)
+[1.729s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(v5_moveit_config)
+[1.729s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config' for CMake module files
+[1.730s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config' for CMake config files
+[1.730s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('v5_moveit_config', 'cmake_prefix_path')
+[1.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/hook/cmake_prefix_path.ps1'
+[1.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/hook/cmake_prefix_path.dsv'
+[1.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/hook/cmake_prefix_path.sh'
+[1.731s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config/bin'
+[1.731s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config/lib/pkgconfig/v5_moveit_config.pc'
+[1.732s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config/lib/python3.10/site-packages'
+[1.732s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/v5_moveit_config/bin'
+[1.732s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.ps1'
+[1.733s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.dsv'
+[1.733s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.sh'
+[1.734s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.bash'
+[1.734s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.zsh'
+[1.734s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/v5_moveit_config/share/colcon-core/packages/v5_moveit_config)
+[1.931s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/ur_robot_driver -- -j16 -l16[0m
+[1.936s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/src/ur5_wave': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/ur5_wave/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/ur5_wave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_wave build --build-base /home/bwilab/fri_ws/build/ur5_wave/build install --record /home/bwilab/fri_ws/build/ur5_wave/install.log --single-version-externally-managed install_data[0m
+[1.940s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/src/v5_arm/robotiq_gripper_driver': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/robotiq_gripper_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/robotiq_gripper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/robotiq_gripper_driver build --build-base /home/bwilab/fri_ws/build/robotiq_gripper_driver/build install --record /home/bwilab/fri_ws/build/robotiq_gripper_driver/install.log --single-version-externally-managed install_data[0m
+[1.954s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/src/recognition_node': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/recognition_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/recognition_node build --build-base /home/bwilab/fri_ws/build/recognition_node/build install --record /home/bwilab/fri_ws/build/recognition_node/install.log --single-version-externally-managed install_data[0m
+[1.996s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/fri_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/ur_robot_driver[0m
+[2.077s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ur_robot_driver)
+[2.078s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver' for CMake module files
+[2.078s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/ur_robot_driver[0m
+[2.079s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver' for CMake config files
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[2.080s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[2.080s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[2.081s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/lib'
+[2.081s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[2.081s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[2.082s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[2.082s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[2.082s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/bin'
+[2.082s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_robot_driver', 'path')
+[2.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[2.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[2.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[2.084s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[2.084s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/lib/python3.10/site-packages'
+[2.084s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/bin'
+[2.084s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[2.084s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[2.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[2.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[2.086s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[2.086s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[2.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[2.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[2.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[2.088s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[2.166s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ur_robot_driver)
+[2.166s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver' for CMake module files
+[2.167s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver' for CMake config files
+[2.167s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[2.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[2.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[2.169s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[2.169s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/lib'
+[2.169s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[2.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[2.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[2.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[2.171s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/bin'
+[2.171s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_robot_driver', 'path')
+[2.171s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[2.171s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[2.172s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[2.172s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[2.172s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/lib/python3.10/site-packages'
+[2.172s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur_robot_driver/bin'
+[2.172s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[2.172s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[2.173s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[2.173s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[2.174s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[2.174s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[2.175s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[2.175s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[2.175s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[2.176s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[2.298s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/recognition_node' for CMake module files
+[2.299s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/src/recognition_node' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/recognition_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/recognition_node build --build-base /home/bwilab/fri_ws/build/recognition_node/build install --record /home/bwilab/fri_ws/build/recognition_node/install.log --single-version-externally-managed install_data[0m
+[2.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/recognition_node' for CMake config files
+[2.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/recognition_node/lib'
+[2.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/recognition_node/bin'
+[2.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/recognition_node/lib/pkgconfig/recognition_node.pc'
+[2.300s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages'
+[2.300s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('recognition_node', 'pythonpath')
+[2.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/hook/pythonpath.ps1'
+[2.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/hook/pythonpath.dsv'
+[2.301s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/hook/pythonpath.sh'
+[2.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/recognition_node/bin'
+[2.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(recognition_node)
+[2.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/package.ps1'
+[2.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/package.dsv'
+[2.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/package.sh'
+[2.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/package.bash'
+[2.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/recognition_node/share/recognition_node/package.zsh'
+[2.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/recognition_node/share/colcon-core/packages/recognition_node)
+[2.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur5_wave' for CMake module files
+[2.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur5_wave' for CMake config files
+[2.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur5_wave/lib'
+[2.306s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/src/ur5_wave' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/ur5_wave/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/ur5_wave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_wave build --build-base /home/bwilab/fri_ws/build/ur5_wave/build install --record /home/bwilab/fri_ws/build/ur5_wave/install.log --single-version-externally-managed install_data[0m
+[2.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur5_wave/bin'
+[2.307s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur5_wave/lib/pkgconfig/ur5_wave.pc'
+[2.307s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur5_wave/lib/python3.10/site-packages'
+[2.307s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ur5_wave', 'pythonpath')
+[2.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/hook/pythonpath.ps1'
+[2.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/hook/pythonpath.dsv'
+[2.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/hook/pythonpath.sh'
+[2.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/ur5_wave/bin'
+[2.309s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ur5_wave)
+[2.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/package.ps1'
+[2.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/package.dsv'
+[2.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/package.sh'
+[2.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/package.bash'
+[2.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/ur5_wave/share/ur5_wave/package.zsh'
+[2.311s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/ur5_wave/share/colcon-core/packages/ur5_wave)
+[2.312s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_gripper_driver' for CMake module files
+[2.313s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/fri_ws/src/v5_arm/robotiq_gripper_driver' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/robotiq_gripper_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/robotiq_gripper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/robotiq_gripper_driver build --build-base /home/bwilab/fri_ws/build/robotiq_gripper_driver/build install --record /home/bwilab/fri_ws/build/robotiq_gripper_driver/install.log --single-version-externally-managed install_data[0m
+[2.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_gripper_driver' for CMake config files
+[2.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_gripper_driver/lib'
+[2.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_gripper_driver/bin'
+[2.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_gripper_driver/lib/pkgconfig/robotiq_gripper_driver.pc'
+[2.314s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_gripper_driver/lib/python3.10/site-packages'
+[2.314s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robotiq_gripper_driver', 'pythonpath')
+[2.314s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/hook/pythonpath.ps1'
+[2.315s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/hook/pythonpath.dsv'
+[2.315s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/hook/pythonpath.sh'
+[2.316s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/fri_ws/install/robotiq_gripper_driver/bin'
+[2.316s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robotiq_gripper_driver)
+[2.316s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/package.ps1'
+[2.316s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/package.dsv'
+[2.317s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/package.sh'
+[2.317s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/package.bash'
+[2.317s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/robotiq_gripper_driver/package.zsh'
+[2.318s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/fri_ws/install/robotiq_gripper_driver/share/colcon-core/packages/robotiq_gripper_driver)
+[2.318s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.318s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.319s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.319s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.325s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.325s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.325s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.334s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.335s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bwilab/fri_ws/install/local_setup.ps1'
+[2.335s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/bwilab/fri_ws/install/_local_setup_util_ps1.py'
+[2.337s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bwilab/fri_ws/install/setup.ps1'
+[2.338s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bwilab/fri_ws/install/local_setup.sh'
+[2.338s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/bwilab/fri_ws/install/_local_setup_util_sh.py'
+[2.338s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bwilab/fri_ws/install/setup.sh'
+[2.339s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bwilab/fri_ws/install/local_setup.bash'
+[2.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bwilab/fri_ws/install/setup.bash'
+[2.341s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bwilab/fri_ws/install/local_setup.zsh'
+[2.341s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bwilab/fri_ws/install/setup.zsh'

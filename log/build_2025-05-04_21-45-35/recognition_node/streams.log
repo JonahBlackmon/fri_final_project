@@ -1,0 +1,24 @@
+[1.455s] Invoking command in '/home/bwilab/fri_ws/src/recognition_node': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/recognition_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/recognition_node build --build-base /home/bwilab/fri_ws/build/recognition_node/build install --record /home/bwilab/fri_ws/build/recognition_node/install.log --single-version-externally-managed install_data
+[1.725s] running egg_info
+[1.726s] writing ../../build/recognition_node/recognition_node.egg-info/PKG-INFO
+[1.726s] writing dependency_links to ../../build/recognition_node/recognition_node.egg-info/dependency_links.txt
+[1.726s] writing entry points to ../../build/recognition_node/recognition_node.egg-info/entry_points.txt
+[1.726s] writing requirements to ../../build/recognition_node/recognition_node.egg-info/requires.txt
+[1.726s] writing top-level names to ../../build/recognition_node/recognition_node.egg-info/top_level.txt
+[1.728s] reading manifest file '../../build/recognition_node/recognition_node.egg-info/SOURCES.txt'
+[1.729s] writing manifest file '../../build/recognition_node/recognition_node.egg-info/SOURCES.txt'
+[1.729s] running build
+[1.729s] running build_py
+[1.729s] copying recognition_node/gesture_recognition_node.py -> /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node
+[1.730s] running install
+[1.730s] running install_lib
+[1.731s] copying /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node/gesture_recognition_node.py -> /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node
+[1.731s] byte-compiling /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node/gesture_recognition_node.py to gesture_recognition_node.cpython-310.pyc
+[1.732s] running install_data
+[1.732s] running install_egg_info
+[1.734s] removing '/home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.734s] Copying ../../build/recognition_node/recognition_node.egg-info to /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node-0.0.0-py3.10.egg-info
+[1.735s] running install_scripts
+[1.752s] Installing gesture_recognition_node script to /home/bwilab/fri_ws/install/recognition_node/lib/recognition_node
+[1.752s] writing list of installed files to '/home/bwilab/fri_ws/build/recognition_node/install.log'
+[1.796s] Invoked command in '/home/bwilab/fri_ws/src/recognition_node' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/build/recognition_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/recognition_node build --build-base /home/bwilab/fri_ws/build/recognition_node/build install --record /home/bwilab/fri_ws/build/recognition_node/install.log --single-version-externally-managed install_data

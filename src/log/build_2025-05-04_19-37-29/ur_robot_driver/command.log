@@ -1,0 +1,1 @@
+Invoking command in '/home/bwilab/fri_ws/src/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/src/build/ur_robot_driver -- -j16 -l16

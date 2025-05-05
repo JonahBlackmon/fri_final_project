@@ -1,1 +1,4 @@
-/home/bwilab/fri_ws/src/v5_arm/arm_launch/config/trajectory_execution.yaml
+trajectory_execution:
+  allowed_execution_duration_scaling: 2.0
+  allowed_goal_duration_margin: 2.0
+  trajectory_duration_monitoring: true

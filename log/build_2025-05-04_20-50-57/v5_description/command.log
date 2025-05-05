@@ -1,0 +1,2 @@
+Invoking command in '/home/bwilab/fri_ws/build/v5_description': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/recognition_node /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/v5_description -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/install/v5_description
+Invoked command in '/home/bwilab/fri_ws/build/v5_description' returned '1': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/recognition_node /home/bwilab/.local/bin/cmake /home/bwilab/fri_ws/src/v5_description -DCMAKE_INSTALL_PREFIX=/home/bwilab/fri_ws/install/v5_description

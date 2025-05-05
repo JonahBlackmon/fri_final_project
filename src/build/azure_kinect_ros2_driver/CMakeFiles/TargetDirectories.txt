@@ -1,0 +1,12 @@
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/uninstall.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/azure_kinect_ros2_driver_uninstall.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/azure_kinect_node.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/ament_cmake_python_copy_azure_kinect_ros2_driver.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/ament_cmake_python_build_azure_kinect_ros2_driver_egg.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/test.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/edit_cache.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/rebuild_cache.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/list_install_components.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/install.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/install/local.dir
+/home/bwilab/fri_ws/src/build/azure_kinect_ros2_driver/CMakeFiles/install/strip.dir

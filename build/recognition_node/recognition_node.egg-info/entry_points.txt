@@ -1,0 +1,3 @@
+[console_scripts]
+gesture_recognition_node = recognition_node.gesture_recognition_node:main
+

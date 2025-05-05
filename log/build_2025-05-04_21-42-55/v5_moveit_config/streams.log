@@ -1,0 +1,47 @@
+[0.014s] Invoking command in '/home/bwilab/fri_ws/build/v5_moveit_config': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/v5_moveit_config -- -j16 -l16
+[0.060s] Invoked command in '/home/bwilab/fri_ws/build/v5_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/build/v5_moveit_config -- -j16 -l16
+[0.104s] Invoking command in '/home/bwilab/fri_ws/build/v5_moveit_config': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/v5_moveit_config
+[0.131s] -- Install configuration: ""
+[0.131s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/ament_index/resource_index/package_run_dependencies/v5_moveit_config
+[0.131s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/ament_index/resource_index/parent_prefix_path/v5_moveit_config
+[0.131s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/environment/path.sh
+[0.132s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/environment/path.dsv
+[0.132s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/local_setup.bash
+[0.132s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/local_setup.sh
+[0.132s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/local_setup.zsh
+[0.132s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/local_setup.dsv
+[0.132s] -- Installing: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.dsv
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/ament_index/resource_index/packages/v5_moveit_config
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/cmake/v5_moveit_configConfig.cmake
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/cmake/v5_moveit_configConfig-version.cmake
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/package.xml
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/rsp.launch.py
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/spawn_controllers.launch.py
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/move_group.launch.py
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/warehouse_db.launch.py
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/setup_assistant.launch.py
+[0.133s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/moveit_rviz.launch.py
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/demo.launch.py
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ompl_planning.yaml
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/sensors_kinect_pointcloud.yaml
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/joint_limits.yaml
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/moveit_controllers.yaml
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/moveit.rviz
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ur5_with_gripper.urdf.xacro
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/kinematics.yaml
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/initial_positions.yaml
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/trajectory_execution.yaml
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ur5_with_gripper.ros2_control.xacro
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/pilz_cartesian_limits.yaml
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/sensors_3d.yaml
+[0.134s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ros2_controllers.yaml
+[0.135s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/v5_with_arm.srdf
+[0.135s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/ur5_with_gripper.srdf
+[0.135s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/config/sensors_kinect_depthmap.yaml
+[0.135s] -- Up-to-date: /home/bwilab/fri_ws/install/v5_moveit_config/share/v5_moveit_config/.setup_assistant
+[0.139s] Invoked command in '/home/bwilab/fri_ws/build/v5_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/install/v5_description:/home/bwilab/fri_ws/install/v5_moveit_config:/home/bwilab/fri_ws/install/ur_robot_driver:/home/bwilab/fri_ws/install/ur_description:/home/bwilab/fri_ws/install/robotiq_description:/home/bwilab/fri_ws/install/arm_launch:/home/bwilab/fri_ws/install/ur5_wave:/home/bwilab/fri_ws/install/robotiq_gripper_driver:/home/bwilab/fri_ws/install/recognition_node:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --install /home/bwilab/fri_ws/build/v5_moveit_config

@@ -1,0 +1,43 @@
+[0.638s] Invoking command in '/home/bwilab/fri_ws/src/recognition_node': PYTHONPATH=/home/bwilab/fri_ws/build/recognition_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/recognition_node build --build-base /home/bwilab/fri_ws/build/recognition_node/build install --record /home/bwilab/fri_ws/build/recognition_node/install.log --single-version-externally-managed install_data
+[0.827s] running egg_info
+[0.827s] creating ../../build/recognition_node/recognition_node.egg-info
+[0.828s] writing ../../build/recognition_node/recognition_node.egg-info/PKG-INFO
+[0.828s] writing dependency_links to ../../build/recognition_node/recognition_node.egg-info/dependency_links.txt
+[0.828s] writing entry points to ../../build/recognition_node/recognition_node.egg-info/entry_points.txt
+[0.828s] writing requirements to ../../build/recognition_node/recognition_node.egg-info/requires.txt
+[0.828s] writing top-level names to ../../build/recognition_node/recognition_node.egg-info/top_level.txt
+[0.828s] writing manifest file '../../build/recognition_node/recognition_node.egg-info/SOURCES.txt'
+[0.829s] reading manifest file '../../build/recognition_node/recognition_node.egg-info/SOURCES.txt'
+[0.830s] writing manifest file '../../build/recognition_node/recognition_node.egg-info/SOURCES.txt'
+[0.831s] running build
+[0.831s] running build_py
+[0.831s] creating /home/bwilab/fri_ws/build/recognition_node/build
+[0.831s] creating /home/bwilab/fri_ws/build/recognition_node/build/lib
+[0.831s] creating /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node
+[0.831s] copying recognition_node/gesture_recognition_node.py -> /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node
+[0.831s] copying recognition_node/gesture_recognition.py -> /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node
+[0.832s] copying recognition_node/angle_calculator.py -> /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node
+[0.832s] copying recognition_node/__init__.py -> /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node
+[0.832s] running install
+[0.832s] running install_lib
+[0.833s] creating /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node
+[0.833s] copying /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node/gesture_recognition_node.py -> /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node
+[0.833s] copying /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node/gesture_recognition.py -> /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node
+[0.833s] copying /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node/angle_calculator.py -> /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node
+[0.833s] copying /home/bwilab/fri_ws/build/recognition_node/build/lib/recognition_node/__init__.py -> /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node
+[0.834s] byte-compiling /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node/gesture_recognition_node.py to gesture_recognition_node.cpython-310.pyc
+[0.834s] byte-compiling /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node/gesture_recognition.py to gesture_recognition.cpython-310.pyc
+[0.835s] byte-compiling /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node/angle_calculator.py to angle_calculator.cpython-310.pyc
+[0.836s] byte-compiling /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node/__init__.py to __init__.cpython-310.pyc
+[0.836s] running install_data
+[0.836s] creating /home/bwilab/fri_ws/install/recognition_node/share/ament_index
+[0.836s] creating /home/bwilab/fri_ws/install/recognition_node/share/ament_index/resource_index
+[0.837s] creating /home/bwilab/fri_ws/install/recognition_node/share/ament_index/resource_index/packages
+[0.837s] copying resource/recognition_node -> /home/bwilab/fri_ws/install/recognition_node/share/ament_index/resource_index/packages
+[0.837s] copying package.xml -> /home/bwilab/fri_ws/install/recognition_node/share/recognition_node
+[0.837s] running install_egg_info
+[0.838s] Copying ../../build/recognition_node/recognition_node.egg-info to /home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages/recognition_node-0.0.0-py3.10.egg-info
+[0.839s] running install_scripts
+[0.854s] Installing gesture_recognition_node script to /home/bwilab/fri_ws/install/recognition_node/lib/recognition_node
+[0.854s] writing list of installed files to '/home/bwilab/fri_ws/build/recognition_node/install.log'
+[0.879s] Invoked command in '/home/bwilab/fri_ws/src/recognition_node' returned '0': PYTHONPATH=/home/bwilab/fri_ws/build/recognition_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/install/recognition_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/recognition_node build --build-base /home/bwilab/fri_ws/build/recognition_node/build install --record /home/bwilab/fri_ws/build/recognition_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,32 @@
+[1.021s] Invoking command in '/home/bwilab/fri_ws/src/v5_arm/robotiq_gripper_driver': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/src/build/robotiq_gripper_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotiq_gripper_driver build --build-base /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/build install --record /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/install.log --single-version-externally-managed install_data
+[1.252s] running egg_info
+[1.252s] writing ../../build/robotiq_gripper_driver/robotiq_gripper_driver.egg-info/PKG-INFO
+[1.252s] writing dependency_links to ../../build/robotiq_gripper_driver/robotiq_gripper_driver.egg-info/dependency_links.txt
+[1.253s] writing entry points to ../../build/robotiq_gripper_driver/robotiq_gripper_driver.egg-info/entry_points.txt
+[1.253s] writing requirements to ../../build/robotiq_gripper_driver/robotiq_gripper_driver.egg-info/requires.txt
+[1.253s] writing top-level names to ../../build/robotiq_gripper_driver/robotiq_gripper_driver.egg-info/top_level.txt
+[1.254s] reading manifest file '../../build/robotiq_gripper_driver/robotiq_gripper_driver.egg-info/SOURCES.txt'
+[1.255s] writing manifest file '../../build/robotiq_gripper_driver/robotiq_gripper_driver.egg-info/SOURCES.txt'
+[1.255s] running build
+[1.255s] running build_py
+[1.255s] copying robotiq_gripper_driver/gripper_ros_controller.py -> /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/build/lib/robotiq_gripper_driver
+[1.255s] copying robotiq_gripper_driver/robotiq_gripper.py -> /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/build/lib/robotiq_gripper_driver
+[1.255s] copying robotiq_gripper_driver/__init__.py -> /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/build/lib/robotiq_gripper_driver
+[1.255s] running install
+[1.256s] running install_lib
+[1.256s] copying /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/build/lib/robotiq_gripper_driver/gripper_ros_controller.py -> /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages/robotiq_gripper_driver
+[1.256s] copying /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/build/lib/robotiq_gripper_driver/robotiq_gripper.py -> /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages/robotiq_gripper_driver
+[1.256s] copying /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/build/lib/robotiq_gripper_driver/__init__.py -> /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages/robotiq_gripper_driver
+[1.257s] byte-compiling /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages/robotiq_gripper_driver/gripper_ros_controller.py to gripper_ros_controller.cpython-310.pyc
+[1.257s] byte-compiling /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages/robotiq_gripper_driver/robotiq_gripper.py to robotiq_gripper.cpython-310.pyc
+[1.259s] byte-compiling /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages/robotiq_gripper_driver/__init__.py to __init__.cpython-310.pyc
+[1.259s] running install_data
+[1.259s] copying resource/robotiq_gripper_driver -> /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/share/ament_index/resource_index/packages
+[1.260s] copying package.xml -> /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/share/robotiq_gripper_driver
+[1.260s] running install_egg_info
+[1.261s] removing '/home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages/robotiq_gripper_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[1.261s] Copying ../../build/robotiq_gripper_driver/robotiq_gripper_driver.egg-info to /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages/robotiq_gripper_driver-0.0.0-py3.10.egg-info
+[1.262s] running install_scripts
+[1.276s] Installing gripper_driver script to /home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/robotiq_gripper_driver
+[1.276s] writing list of installed files to '/home/bwilab/fri_ws/src/build/robotiq_gripper_driver/install.log'
+[1.297s] Invoked command in '/home/bwilab/fri_ws/src/v5_arm/robotiq_gripper_driver' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/bwilab/fri_ws/src/build/robotiq_gripper_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bwilab/fri_ws/src/install/robotiq_gripper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotiq_gripper_driver build --build-base /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/build install --record /home/bwilab/fri_ws/src/build/robotiq_gripper_driver/install.log --single-version-externally-managed install_data

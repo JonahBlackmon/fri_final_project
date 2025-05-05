@@ -11,6 +11,7 @@ from ament_index_python.packages import get_package_share_directory
 from moveit_configs_utils import MoveItConfigsBuilder
 import os
 
+
 def generate_launch_description():
 
     show_gui = LaunchConfiguration("gui")
@@ -104,6 +105,29 @@ def generate_launch_description():
         arguments=["--use_tf_static", "false"],
         parameters=[moveit_config.robot_description],
         #condition=IfCondition(stationary)
+    )
+
+    kinect_driver = IncludeLaunchDescription(
+    PythonLaunchDescriptionSource([
+        PathJoinSubstitution([
+            FindPackageShare("azure_kinect_ros_driver"),
+            "launch",
+            "driver.launch.py"
+        ])
+    ]),
+    launch_arguments={
+        "overwrite_robot_description": "false",
+        "depth_enabled": "true",
+        "color_enabled": "true",
+        "point_cloud": "true",
+        "rgb_point_cloud": "true"
+    }.items()
+    )
+    kinect_tf = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        name="kinect_static_tf",
+        arguments=["0.3", "0", "0.8", "0", "0", "0", "base_link", "camera_link"]  # Adjust values for your setup
     )
 
     arm_launch_pkg = get_package_share_directory('arm_launch')

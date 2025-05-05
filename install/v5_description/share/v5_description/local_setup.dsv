@@ -1,1 +1,2 @@
-/home/bwilab/fri_ws/build/v5_description/ament_cmake_environment_hooks/local_setup.dsv
+source;share/v5_description/environment/ament_prefix_path.sh
+source;share/v5_description/environment/path.sh

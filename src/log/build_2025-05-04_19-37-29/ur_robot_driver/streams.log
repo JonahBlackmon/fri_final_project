@@ -1,0 +1,61 @@
+[0.011s] Invoking command in '/home/bwilab/fri_ws/src/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/fri_ws/src/install/ur_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/bwilab/.local/bin/cmake --build /home/bwilab/fri_ws/src/build/ur_robot_driver -- -j16 -l16
+[0.048s] [0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.048s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.132s] -- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)
+[0.159s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.161s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.167s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.375s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.376s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.394s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.402s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.422s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.430s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.527s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.527s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.536s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.538s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.539s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.596s] -- Found ur_dashboard_msgs: 2.2.15 (/opt/ros/humble/share/ur_dashboard_msgs/cmake)
+[0.838s] -- Found ur_controllers: 2.2.16 (/opt/ros/humble/share/ur_controllers/cmake)
+[0.852s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.909s] -- Found ur_description: 2.1.5 (/home/bwilab/fri_ws/src/install/ur_description/share/ur_description/cmake)
+[0.909s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.909s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.924s] -- Using PYTHON_EXECUTABLE: /home/bwilab/miniconda3/bin/python3
+[0.924s] -- Using PYTHON_INCLUDE_DIRS: /home/bwilab/miniconda3/include/python3.12
+[0.924s] -- Using PYTHON_LIBRARIES: /home/bwilab/miniconda3/lib/libpython3.12.so
+[0.925s] -- Configuring done (0.9s)
+[1.042s] -- Generating done (0.1s)
+[1.045s] -- Build files have been written to: /home/bwilab/fri_ws/src/build/ur_robot_driver
+[1.069s] [  0%] Built target ament_cmake_python_copy_ur_robot_driver
+[1.083s] [  6%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[1.083s] [ 13%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[1.086s] [ 20%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[1.087s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[1.087s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[1.087s] [ 40%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[1.087s] [ 46%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[1.087s] [ 53%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[1.100s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[1.103s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[1.354s] running egg_info
+[1.387s] writing ur_robot_driver.egg-info/PKG-INFO
+[1.391s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[1.391s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[1.476s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.476s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.531s] [ 66%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[6.801s] [ 73%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[6.979s] [ 73%] Built target ur_ros2_control_node
+[14.893s] [ 80%] [32m[1mLinking CXX executable urscript_interface[0m
+[15.154s] [ 80%] Built target urscript_interface
+[16.290s] [ 86%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[16.561s] [ 86%] Built target controller_stopper_node
+[18.655s] [ 93%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[18.977s] [ 93%] Built target ur_robot_driver_plugin
+[19.235s] [100%] [32m[1mLinking CXX executable dashboard_client[0m
+[19.490s] [100%] Built target dashboard_client

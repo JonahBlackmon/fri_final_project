@@ -1,1 +1,9 @@
-/home/bwilab/fri_ws/src/v5_arm/ur_robot_driver/hardware_interface_plugin.xml
+<library path="ur_robot_driver_plugin">
+  <class name="ur_robot_driver/URPositionHardwareInterface"
+         type="ur_robot_driver::URPositionHardwareInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+		ROS2 Control System Driver for the Universal Robots series.
+    </description>
+  </class>
+</library>

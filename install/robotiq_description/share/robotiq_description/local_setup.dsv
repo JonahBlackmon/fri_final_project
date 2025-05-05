@@ -1,1 +1,2 @@
-/home/bwilab/fri_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.dsv
+source;share/robotiq_description/environment/ament_prefix_path.sh
+source;share/robotiq_description/environment/path.sh
