@@ -40,7 +40,7 @@ sudo apt install ros-humble-trajectory-msgs ros-humble-sensor-msgs ros-humble-st
 ```bash
 pip install opencv-python mediapipe numpy
 ```
-### 1. Clone and Build
+### Clone and Build
 ```bash
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
