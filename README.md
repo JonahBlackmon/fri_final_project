@@ -11,17 +11,19 @@ We developed a human-robot interaction framework in which a UR5 robot uses gestu
 - Respond appropriately through robot gestures
 - Perform real-time imitation of user movements
 
-This system demonstrates an integration of perception, planning, and execution in robotic manipulation for socially-aware behavior.
+This system integrates perception, planning, and execution in robotic manipulation for socially-aware behavior.
+
+Included also is a paper with a more detailed explanation on the purpose, implementation, and future use of this work
 
 ---
 
 ## Technologies Used
 
 - **Robot Platform**: UR5 (Universal Robots)
-- **Middleware**: ROS2 (Foxy)
+- **Middleware**: ROS2
 - **Motion Planning**: MoveIt 2
-- **Languages**: Python 3, C++
-- **Tools**: OpenCV (gesture recognition), RViz, Gazebo
+- **Languages**: Python
+- **Tools**: OpenCV (gesture recognition), RViz (optional)
 
 ---
 
@@ -46,13 +48,17 @@ cd ..
 rosdep install --from-paths src --ignore-src -r -y
 colcon build
 source install/setup.bash
-
+```
 ### Running the Node Network
 #### Gesture Recognition and Greeting:
+```bash
 ros2 run recognition_node gesture_recognition_node
 ros2 run ur5_wave wave_node
+```
 ### Real-time Hand Imitation:
+```bash
 ros2 run mimic_hand mimic_node
 ros2 run calculate_angle angle_node
+```
 
 
