@@ -7,7 +7,7 @@ This repository contains the source code, data, and research paper for a project
 ## Project Summary
 
 We developed a human-robot interaction framework in which a UR5 robot uses gesture recognition to:
-- Identify social greeting gestures (e.g., wave, handshake motion)
+- Identify social greeting gestures (e.g., wave, open palm)
 - Respond appropriately through robot gestures
 - Perform real-time imitation of user movements
 
@@ -35,10 +35,11 @@ Ensure that you have ROS2 Humble installed and configured. Then, install the req
 ```bash
 sudo apt update
 sudo apt install ros-humble-trajectory-msgs ros-humble-sensor-msgs ros-humble-std-msgs ros-humble-builtin-interfaces ros-humble-cv-bridge
-
+```
 ### Python Dependencies
+```bash
 pip install opencv-python mediapipe numpy
-
+```
 ### 1. Clone and Build
 ```bash
 mkdir -p ~/ros2_ws/src
